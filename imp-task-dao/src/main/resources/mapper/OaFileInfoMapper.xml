@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.IOaFileInfoMapper" >
+  
+  <sql id="Base_Column_List" >
+    id, file_guid, title, file_code, file_org, file_date, receive_date, approval, check_read
+  </sql>
+  
+  <insert id="insertFromDraft">
+  	INSERT INTO oa_file_info
+		(id, file_type, file_guid, title, file_code, file_org, file_date, receive_date, approval, check_read, last_at, txt_file_date, old_xianban_date)
+	SELECT 0, d.file_type, d.file_guid, d.title, d.file_code, d.file_org, d.file_date, d.receive_date, d.approval, d.check_read, d.last_at, d.txt_file_date, d.old_xianban_date
+	FROM oa_file_info_draft d
+	WHERE not exists (select i.id from oa_file_info i join oa_file_info_draft d ON i.file_guid = d.file_guid)
+  </insert>
+  
+  <update id="updateFromDraft">
+  	UPDATE oa_file_info i JOIN oa_file_info_draft d ON i.file_guid = d.file_guid AND (d.last_at > i.last_at OR i.last_at is null)
+  	SET
+  		i.title = CASE WHEN d.title is null THEN i.title ELSE d.title END,
+  		i.file_code = CASE WHEN d.file_code is null THEN i.file_code ELSE d.file_code END,
+  		i.file_org = CASE WHEN d.file_org is null THEN i.file_org ELSE d.file_org END,
+  		i.file_date = CASE WHEN d.file_date is null THEN i.file_date ELSE d.file_date END,
+  		i.receive_date = CASE WHEN d.receive_date is null THEN i.receive_date ELSE d.receive_date END,
+  		i.approval = CASE WHEN d.approval is null THEN i.approval ELSE d.approval END,
+  		i.last_at = CASE WHEN d.last_at is null THEN i.last_at ELSE d.last_at END
+  	<where>
+  		<if test="guid != null">
+  			i.file_guid = #{guid}
+  		</if>
+  	</where>
+  </update>
+  
+  <select id="selectUpdFromDraft" resultType="string">
+  	SELECT d.file_guid FROM oa_file_info_draft d LEFT JOIN oa_file_info i
+  						ON i.file_guid = d.file_guid
+	WHERE d.last_at > i.last_at OR i.last_at is null
+  </select>
+  
+</mapper>

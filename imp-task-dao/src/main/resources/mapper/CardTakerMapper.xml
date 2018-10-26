@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.ICardTakerMapper" >
+  
+  <sql id="Base_Column_List" >
+    id, card_id, user_dept_id, affair_id, role, status
+  </sql>
+  
+  <insert id="insertByUserPhone">
+  	insert into card_taker (id, card_id, dept_id, user_id, role) 
+  	select 0, #{cardId}, u.dept_id, #{userId}, #{role}
+  	from user_info u
+  	where not exists (select id from card_taker  
+		where card_id = #{cardId} and user_id = #{userId})
+		and u.id = #{userId}
+  </insert>
+  
+  <insert id="batchInsertByUserList">
+  	insert into card_taker (id, card_id, user_dept_id, affair_id, role, status) 
+  	values
+  	<foreach item="item" collection="aheadList" separator=",">
+		(0, #{cardId}, #{item}, #{affairId}, #{role}, 0)
+	</foreach>
+  </insert>
+  
+</mapper>

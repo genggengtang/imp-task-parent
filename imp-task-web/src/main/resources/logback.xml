@@ -1,0 +1,64 @@
+<configuration>
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+  
+  <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+     <!--<file>/opt/web/spring-mvc-test/log/activity0_0.log</file>-->
+    <Prudent>true</Prudent> 
+	  <rollingPolicy
+	   class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+	   <FileNamePattern>
+	    ../logs/imp_trace.%d{yyyy-MM-dd}.log
+	   </FileNamePattern>
+	   <!-- keep 15 days worth of history --> 
+	   <MaxHistory>15</MaxHistory>
+	  </rollingPolicy>
+	  <layout class="ch.qos.logback.classic.PatternLayout">
+	   <Pattern>
+	    %d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} -%msg%n    
+	   </Pattern>
+	 </layout>
+  </appender>
+
+  <!--logger name="net.schmizz.sshj" level="ERROR"/-->
+  
+    <property name="smtpHost" value="smtp.qq.com" />
+	<property name="smtpPort" value="465" />   
+    <property name="username" value="geng.tang@qq.com" />
+    <property name="password" value="chkpcoaslvulbjai" />
+    <property name="emailTo" value="geng.tang@qq.com" />
+    <property name="ssl" value="true" />
+    <property name="subject" value="【重要工作项目】: %logger" />
+  
+      <appender name="EMAIL" class="ch.qos.logback.classic.net.SMTPAppender">  
+        <smtpHost>${smtpHost}</smtpHost>
+        <smtpPort>${smtpPort}</smtpPort>  
+        <Username>${username}</Username>  
+        <Password>${password}</Password>  
+        <SSL>${ssl}</SSL>  
+        <to>${emailTo}</to>  
+        <from>${username}</from>  
+        <subject>${subject}</subject>  
+        <asynchronousSending>true</asynchronousSending>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+          <pattern>%date %X{ip}  %-5level %logger{35} - %message%n</pattern>
+        </layout>
+         <!-- <filter class="ch.qos.logback.classic.filter.LevelFilter">
+        	<level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+         </filter> -->
+         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+    </appender>
+
+  <root level="INFO">
+    <appender-ref ref="FILE" />
+    <appender-ref ref="STDOUT" />
+    <appender-ref ref="EMAIL" />
+  </root>
+</configuration>

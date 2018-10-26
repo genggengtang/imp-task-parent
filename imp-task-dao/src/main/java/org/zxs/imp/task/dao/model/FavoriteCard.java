@@ -1,0 +1,96 @@
+package org.zxs.imp.task.dao.model;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.apache.ibatis.type.JdbcType;
+
+import com.alibaba.fastjson.annotation.JSONField;
+
+@Entity
+@Table(name="favorite_card")
+public class FavoriteCard {
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@JSONField(ordinal=1)
+    private Long id;
+
+	@JSONField(ordinal=2)
+	@Column(name="card_id", nullable = false, unique = false, length = 15, columnDefinition = "卡片编号")
+    private Long cardId;
+
+	@JSONField(ordinal=3)
+	@Column(name="user_id", nullable = false, unique = false, length = 8, columnDefinition = "用户编号")
+    private Integer userId;
+
+	@JSONField(ordinal=4)
+	@Column(name="create_at", nullable = false, unique = false, columnDefinition = "创建时间")
+    private Date createAt;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getCardId() {
+		return cardId;
+	}
+
+	public void setCardId(Long cardId) {
+		this.cardId = cardId;
+	}
+
+	public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+
+    public Date getCreateAt() {
+        return createAt;
+    }
+
+    public void setCreateAt(Date createAt) {
+        this.createAt = createAt;
+    }
+
+    @Override
+    public boolean equals(Object that) {
+        if (this == that) {
+            return true;
+        }
+        if (that == null) {
+            return false;
+        }
+        if (getClass() != that.getClass()) {
+            return false;
+        }
+        FavoriteCard other = (FavoriteCard) that;
+        return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
+            && (this.getCardId() == null ? other.getCardId() == null : this.getCardId().equals(other.getCardId()))
+            && (this.getUserId() == null ? other.getUserId() == null : this.getUserId().equals(other.getUserId()))
+            && (this.getCreateAt() == null ? other.getCreateAt() == null : this.getCreateAt().equals(other.getCreateAt()));
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((getId() == null) ? 0 : getId().hashCode());
+        result = prime * result + ((getCardId() == null) ? 0 : getCardId().hashCode());
+        result = prime * result + ((getUserId() == null) ? 0 : getUserId().hashCode());
+        result = prime * result + ((getCreateAt() == null) ? 0 : getCreateAt().hashCode());
+        return result;
+    }
+}

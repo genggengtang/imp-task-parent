@@ -1,0 +1,3088 @@
+<?xml version="1.0" encoding="gb2312"?>
+<EpointDataBody>
+	<DATA>
+		<ReturnInfo>
+			<Status>True</Status>
+			<Description></Description>
+		</ReturnInfo>
+		<UserArea>
+			<PageInfo>
+				<TotalNumCount>45446</TotalNumCount>
+				<TotalPageCount>152</TotalPageCount>
+			</PageInfo>
+			<HandleList>
+				<Handle>
+					<txtTitle>关于征求市政协十一届三次会议第048号提案协办意见的函</txtTitle>
+					<txtLaiWenHao>南城管函[2018]754号</txtLaiWenHao>
+					<txtLaiWenDept>市城管局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>50e9ea59-ed3d-45d8-8736-66a516d9a178
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求南宁市政协十一届三次会议第043号提案协办意见的函</txtTitle>
+					<txtLaiWenHao>南城管函[2018]751号</txtLaiWenHao>
+					<txtLaiWenDept>市城管局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1b65c058-8f86-4619-8e78-98c80042cfca
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>全区易地扶贫搬迁有关工作推进情况通报（2018年6月20日）</txtTitle>
+					<txtLaiWenHao>桂移民组发〔2018〕44号</txtLaiWenHao>
+					<txtLaiWenDept>区移民组</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>a3bc096e-0c7d-4082-8ddd-07abaffe0589
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求南宁市政协十一届三次会议第040号提案协办意见的函</txtTitle>
+					<txtLaiWenHao>南城管函[2018]750号</txtLaiWenHao>
+					<txtLaiWenDept>市城管局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>3ef2222a-f357-45c3-91cc-3d46fe9b0e5c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于在全市范围内开展第二季度“公开大接访”活动的通知</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委员会办公厅</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 16:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e81412a1-3415-405f-b4ff-22148e1f6a86
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>纬武综合市场旁百厨食坊前停车位没有收费公示牌不合理</txtTitle>
+					<txtLaiWenHao>18062535024</txtLaiWenHao>
+					<txtLaiWenDept>市长公开电话办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/9 23:59:59</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>c1a91ad0-ff3f-4335-a9fc-e0f24f431fad
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求南宁市政协十一届三次会议第038号提案协办意见的函</txtTitle>
+					<txtLaiWenHao>南城管函[2018]749号</txtLaiWenHao>
+					<txtLaiWenDept>市城管局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6229e395-4b2a-4116-b3f4-1eb39f5ab2e2
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>五象新区广源华府楼盘在价外加价销售问题</txtTitle>
+					<txtLaiWenHao>18062417001</txtLaiWenHao>
+					<txtLaiWenDept>市长公开电话办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 23:59:59</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>c88aff2e-cb16-4b6d-ba41-c966ba017fc3
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区能源局 广西壮族自治区扶贫开发办公室关于报送光伏扶贫项目有关信息的通知</txtTitle>
+					<txtLaiWenHao>桂能新能〔2018〕22号</txtLaiWenHao>
+					<txtLaiWenDept>自治区能源局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>a225a59b-6634-4d17-8d69-042ac0fbec54
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市人民政府办公厅关于印发南宁市辐射事故应急预案（2018年修订）的通知</txtTitle>
+					<txtLaiWenHao>南府办〔2018〕29号</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>32260656-eeed-426c-ac2a-968a3a891c94
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于进一步规范市本级事业单位和国有企业公务用车制度改革有关材料报送方式的通知</txtTitle>
+					<txtLaiWenHao>南车改办〔2018〕20号</txtLaiWenHao>
+					<txtLaiWenDept>市车改办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>80f603ca-cf4a-4b86-85dc-aff10f769929
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发南宁市创建国家食品安全示范城市工作联席会议制度等四项制度的通知</txtTitle>
+					<txtLaiWenHao>南食创办〔2018〕13号</txtLaiWenHao>
+					<txtLaiWenDept>市食安办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/10 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>30316057-f1ff-4c83-988c-763706e698e5
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求南宁市加强母婴设施建设实施方案修改意见的函</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市卫生和计划生育委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>072f1d83-81db-4ca8-8369-ea5675fd595e
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送广西北部湾经济区物流一体化工作进展情况的函（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-F-412</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>7f455df9-e24d-4140-8b3f-3fc4ec8c8fe3
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市-气象服务信息-2018053-天气快报</txtTitle>
+					<txtLaiWenHao>2018053</txtLaiWenHao>
+					<txtLaiWenDept>市气象局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>91a72e21-b01c-4575-a0df-532167fe3767
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于恳请解决高峰林场子弹头地块合作事项的请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-4-C-234</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/5 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6a90feca-8eb7-4c95-99b5-bab88209ff75
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市发展改革委员会网络咨询处理审批单（杨志斌）</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/10 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>9eab992d-096e-49d7-be55-8740fa213d7c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会关于重大建设项目库2018年5月调度运行监测情况的通报</txtTitle>
+					<txtLaiWenHao>桂发改稽察〔2018〕724号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/10 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>732f00d9-5b96-4e93-bbca-f809e1cd28ab
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于组织开展2018年德行天下微影故事——南宁市践行社会主义核心价值观主题微电影征集展示活动的通知
+					</txtTitle>
+					<txtLaiWenHao>南宣字〔2018〕58号</txtLaiWenHao>
+					<txtLaiWenDept>市委宣传部</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/8/11 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>4ee62238-e3a5-477a-b805-5995c14d28dd
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市民政局关于请协助提供开展加强乡镇政府服务能力建设工作进展情况相关材料的函</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市民政局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>0d7952ec-a9c5-4491-a7af-b48390bacd68
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市教育局关于配合做好南宁市学前教育发展研究专题实地调研工作的函</txtTitle>
+					<txtLaiWenHao>南教函〔2018〕188号</txtLaiWenHao>
+					<txtLaiWenDept>市教育局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>fb41c2c0-36ca-4f3c-9818-4a78145a3af6
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于建设“南宁市惠企政策引擎”系统平台项目的请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-6-T-34</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/3 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/26 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>5fec54df-8875-40f4-ae6d-434a6a1caad7
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发《驻邕全国人大代表、自治区人大代表和市人大代表开展2018年年中专题调研第六调研组工作方案》的通知
+					</txtTitle>
+					<txtLaiWenHao>南人办〔2018〕99号</txtLaiWenHao>
+					<txtLaiWenDept>市人大</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/28 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>aea7d83b-2bbf-4cf6-917e-15e3ceac5402
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市迎接中央环境保护督察“回头看”工作专题会议纪要</txtTitle>
+					<txtLaiWenHao>〔2018〕176号</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>187f1930-d57e-416d-a049-7663912d9f59
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区首府绿化委员会关于转发自治区绿化委员会开展全国绿化模范单位、全国绿化奖章评选工作的通知
+					</txtTitle>
+					<txtLaiWenHao>首绿发〔2018〕1号</txtLaiWenHao>
+					<txtLaiWenDept>自治区首府绿化委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/28 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>63b061a1-517f-4ba7-814a-bb346878e15e
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于贯彻落实王小东书记重要批示精神全力做好当前防汛抢险救灾工作的通知</txtTitle>
+					<txtLaiWenHao>南汛指〔2018〕12号</txtLaiWenHao>
+					<txtLaiWenDept>市防汛抗旱指挥部</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/7 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>8cb60342-f27a-460b-a75f-a68dfc9e2a00
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会关于举办2018年全区发展改革系统企业债券融资业务培训班的通知</txtTitle>
+					<txtLaiWenHao>桂发改财金〔2018〕716号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>c775443c-e787-4203-af51-2771b5f64895
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求南宁市生活垃圾分类工作倡议书修改意见的函</txtTitle>
+					<txtLaiWenHao>南垃圾分类办函[2018]12号</txtLaiWenHao>
+					<txtLaiWenDept>市垃圾分类办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>59eb28d1-f307-4cf1-8153-bc87420ad1a1
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于恳请出具项目评估咨询委托书的函</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>自治区工程咨询中心</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/7 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>09fa6e53-5283-4bad-907e-ea23880c599d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>金凯路36号昌泰鑫金绿洲小区停车费的问题</txtTitle>
+					<txtLaiWenHao>18062227045</txtLaiWenHao>
+					<txtLaiWenDept>市长公开电话办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 23:59:59</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>2abcc1ef-aae3-487d-8ef2-2229e8adc052
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于确定一名领导担任南宁市第四次全国经济普查领导小组成员的函</txtTitle>
+					<txtLaiWenHao>南统函〔2018〕109号</txtLaiWenHao>
+					<txtLaiWenDept>市统计局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>3259e1d3-a22d-4986-8a46-3ded3bac1b9b
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会转发国家发展改革委办公厅关于开展PPP项目库规范核查促进PPP持续健康发展的通知
+					</txtTitle>
+					<txtLaiWenHao>桂发改投资〔2018〕713号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/9 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>22f3a736-ed01-43bf-9b62-238d39a02503
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会关于举办第二期“十三五”规划实施中期评估培训班的通知</txtTitle>
+					<txtLaiWenHao>桂发改规划〔2018〕725号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>48042791-ed06-4e08-b8b8-2462278f1e39
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于2018年上半年“美丽南宁”乡村建设活动第三次暗访检查情况的通报</txtTitle>
+					<txtLaiWenHao>南乡村办通发〔2018〕16号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市“美丽南宁”乡村建设领导小组办公室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b7ffd2b8-e28f-4e50-b43d-c60118f9fdae
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于石漠化综合治理项目建设座谈会的会议纪要</txtTitle>
+					<txtLaiWenHao>桂发改农经〔2018〕683号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/9 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>c7c38ac7-bff4-402f-bf30-82f1febbdf17
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于新增千亿斤粮食项目建设推进会的会议纪要</txtTitle>
+					<txtLaiWenHao>桂发改农经〔2018〕684号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/9 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>12c91501-9f78-4e4d-a753-c98c22e18c51
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>中共南宁市委办公厅关于2018年5月份全市重大会议会风会纪督查情况的通报</txtTitle>
+					<txtLaiWenHao>南办发〔2018〕54号</txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委办公厅</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f7e713e4-10be-4f26-85b9-855d2addc4df
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于再次征求《广西贯彻落实“三大定位”新使命工作方案》修改意见的函（批示件）</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ed42b482-3462-4c0c-b058-27bde27eae74
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求《市政府主要领导检查东盟文化旅游项目建设及开园试运营筹备工作会议纪要》修改意见的说明</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/25 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1ef5b958-de57-44c9-a0b1-1411f284e176
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于邕宁区“仲龙路”更名为“茶泉大道”的通知</txtTitle>
+					<txtLaiWenHao>地名命名通告2018年第9期</txtLaiWenHao>
+					<txtLaiWenDept>南宁市民政局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>d7db2d57-aecf-4bb9-a979-295cf914fb6d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于南宁市平乐大道新建三座立交桥命名的通知</txtTitle>
+					<txtLaiWenHao>地名命名通告2018年第8期</txtLaiWenHao>
+					<txtLaiWenDept>南宁市民政局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>382b6e64-09de-4e8c-8470-b5069cf08d46
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求《关于调整2018年度南宁市住房公积金缴存基数和月缴存额上下限的通知》的意见的函</txtTitle>
+					<txtLaiWenHao>南金函〔2018〕65号</txtLaiWenHao>
+					<txtLaiWenDept>南宁住房公积金管理中心</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/28 17:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ecd2c701-681b-4b83-8964-c0db27fd69d5
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市-气象服务信息-2018052-22日以来我市出现持续性强降雨过程</txtTitle>
+					<txtLaiWenHao>2018052-22</txtLaiWenHao>
+					<txtLaiWenDept>市气象局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>cb7740ec-98ed-4f04-a3a8-2520b42fcf64
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于提请“信用中国”网站对已公示有关中建三局第三建设工程有限责任公司行政处罚信息进行信用修复的函
+					</txtTitle>
+					<txtLaiWenHao>南环函〔2018〕589号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市环境保护局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/9 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b37e5419-f4d9-4068-aec0-438824dc2858
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于全区进一步深化广西电力体制改革若干措施贯彻落实情况的督查报告（批示件）</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f61865fb-a7f7-4a99-9f5d-e7adbabbd44a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市发展改革委员会网络咨询处理审批单（卢绍伟）</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/7 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6540f378-983c-43a4-a669-23f032a49445
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市发展改革委员会网络咨询处理审批单（梁鹏斌）</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/10 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>fc5b70cf-1fe8-46eb-b4f9-c9b686cbfc05
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市发展改革委员会网络咨询处理审批单（杨兴 ）</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/7 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>a84ea230-333a-4385-88e5-62c9362a5295
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于南宁教育园区（西片区）引进公办中小学校的请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-7-E-092</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>26443d7f-1601-4fa8-8ab7-45426c0db47c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于平乐小学迁建项目相关事项的请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-7-E-094</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>a2332d9e-34b3-4e75-be9c-842983bb744c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于做好迎接国家实地核查2017年度自治区人民政府履行教育职责情况工作的通知（批示件）</txtTitle>
+					<txtLaiWenHao>2018-7-E-093</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/25 16:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ae9c2dce-b7ed-47ae-be06-99c015b5176d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市贯彻落实自治区优化营商环境大会精神及1十13个政策文件进展情况的报告(批示件)</txtTitle>
+					<txtLaiWenHao>2018-决策-办文-23</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/28 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e03b54fe-af90-43ce-a1c4-b0eb5613c049
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于举办中国铁道学会轨道交通工程分会成立大会暨第二届磁浮发展高峰论坛的函</txtTitle>
+					<txtLaiWenHao>中铁磁浮科技函〔2018〕19号</txtLaiWenHao>
+					<txtLaiWenDept>中铁磁浮交通投资建设有限公司</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>eb20252d-8f7a-4b43-8508-94ef95a9825a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市人大常委会办公厅关于组织驻邕全国、自治区人大代表和南宁市人大代表开展2018年年中专题调研的通知
+					</txtTitle>
+					<txtLaiWenHao>南人办〔2018〕96号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市人大常委会办公厅</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/9 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f1be0854-d063-4e49-aede-bea53d879ab0
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>领导批示件（关于做好汛期防灾减灾各项工作的通知）</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/5 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b22d2a2b-d666-445c-a039-41deb08b35c3
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于申请安装电子政务外网备份电路的函</txtTitle>
+					<txtLaiWenHao>南卫函〔2018〕245号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市卫生和计划生育委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/9 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>472b74fa-0d96-4936-8096-31bab7e262f0
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发南宁市人大常委会第三调研组关于开展《南宁市民族团结进步工作》专题调研工作方案的通知（批示件）
+					</txtTitle>
+					<txtLaiWenHao>2018-综二-Z2-15</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/5 15:30:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6844ff76-5923-4d36-b8f9-0fe2b2f1ccfd
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于定期报送南宁市供给侧结构改革补短板重点工作提高城市道路密度工作进展情况的函</txtTitle>
+					<txtLaiWenHao>南规函〔2018〕1508号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市规划管理局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>890b97ee-bd63-45e8-8446-6600b63976d4
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于整理和报送“制度建设年”相关配套制度的通知</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市大行动办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/2 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e564a108-bee3-40e4-a4dd-d2eee2527746
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于规范实施光伏扶贫工程的通知</txtTitle>
+					<txtLaiWenHao>桂能新能〔2018〕21号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区能源局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/9 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ca0a95fc-5027-4c36-8840-9b3991c781c4
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于要求认真办理中央环境保护督察组交办群众举报问题的通知</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>中央环保督查组“回头看”南宁迎检工作组</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>849deb36-87d2-49f7-a05f-aa96f617b3c9
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于举办全区粮食系统办公室业务培训班的通知</txtTitle>
+					<txtLaiWenHao>桂粮办法〔2018〕114号</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 17:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>0ddd8942-8933-464a-a44a-10ea7b3fabbf
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送我市将社会公共资源向易地扶贫搬迁贫困群众倾斜的信息约稿通知</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市政府信息办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>219c1cb5-5972-4c1a-94fe-994f81293657
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市法制办公室关于举办2018年全市政府法制工作业务培训班的预通知</txtTitle>
+					<txtLaiWenHao>南法制字【2018】56号</txtLaiWenHao>
+					<txtLaiWenDept>市法制办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>45caeaf4-ce23-44f4-8607-6ee56bc1f878
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>研究将那平江支流4直排口污水临时收集系统项目纳入凤岭北路—高速环路立交（二期工程）会议纪要</txtTitle>
+					<txtLaiWenHao>南建纪要〔2018〕256号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市城乡建设委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>40d41a76-5a16-4c79-98ec-4ab1e01b30df
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于协助办理南宁农民工之家网站下线有关事宜的函</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市农民工工作和统筹城乡就业工作领导小组</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/9 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6292ab0a-f1da-4906-a425-f5428b223b59
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市-重大气象信息专报-2018001-昨晚马山县出现暴雨到大暴雨,今明两天北部县区强降雨持续
+					</txtTitle>
+					<txtLaiWenHao>2018001</txtLaiWenHao>
+					<txtLaiWenDept>市气象局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>235e9985-9b9a-4707-a30f-909250f696c9
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>续办：南宁市农业委员会关于报审南宁市参加泛珠区域高铁经济带建设工作现场会相关材料的请示（批示件）
+					</txtTitle>
+					<txtLaiWenHao>2018-3-B-163</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6d4185f9-2766-48e1-b876-19d72d5c76e6
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于请求变更发明山智慧保护区信息环建设（一期）项目自然宣教平台设备安装设计方案的函</txtTitle>
+					<txtLaiWenHao>大明山函〔2018〕77号</txtLaiWenHao>
+					<txtLaiWenDept>广西大明山国家级自然保护区管理局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/9 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>59af50fc-ed5b-4af7-9d1a-dc6b1c826292
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>邕江上游引水工程一期工程管材变更专题协调会议纪要</txtTitle>
+					<txtLaiWenHao>南建纪要〔2018〕251号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市城乡建设委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>dd49b1f0-8e78-4648-a594-19c3a5e1a628
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送2018年自治区政务公开绩效考评中期核验迎检材料的通知</txtTitle>
+					<txtLaiWenHao>〔2018〕1号</txtLaiWenHao>
+					<txtLaiWenDept>市政务公开小组市政务公开小组</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>dbd163eb-a374-47dc-93f0-d959f70c7175
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于明确建档立卡户老人户动态管理有关问题的通知</txtTitle>
+					<txtLaiWenHao>桂扶领办发〔2018〕27号</txtLaiWenHao>
+					<txtLaiWenDept>市扶贫开发领导小组办公室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>7f72ff6d-7f93-4376-b6ce-090c61d92c93
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发第14届广西名特优农产品（广州）交易会工作方案的通知（批示件）</txtTitle>
+					<txtLaiWenHao>2018-3-B-172</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>248d5e8e-2295-4251-9672-609697ed611e
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于审定南宁市2018年电网建设目标责任书（代拟稿）的请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-6-Q-213</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/28 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>64f320a4-44e7-4974-a750-59c304e126cc
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于组织开展南宁国际空港综合交通枢纽工程社会稳定风险评估工作的请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-6-Q-212</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f8a79594-4be0-4776-b529-f45c66fdaeb4
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市-气象服务信息-2018051-天气快报</txtTitle>
+					<txtLaiWenHao>2018051</txtLaiWenHao>
+					<txtLaiWenDept>市气象局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6a73825d-c5cd-46d9-9a65-5f650d0f5fed
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>续办：关于申报国家资源循环利用基地的紧急请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-A-153</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/28 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b9431b1b-b6bf-49f9-99c9-ecebc0eb3008
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送2018上半年生活垃圾分类工作总结的通知</txtTitle>
+					<txtLaiWenHao>南垃圾分类办发[2018]10号</txtLaiWenHao>
+					<txtLaiWenDept>市垃圾分类办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/25 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>58fa9029-2ef9-42fd-8258-f0438eb113c3
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送优化营商环境有关情况的紧急通知（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-F-411</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/25 12:00:51</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1e731858-004e-442f-9174-4933809acc43
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发南宁市人大常委会第三调研组关于开展《南宁市民族团结进步工作》专题调研工作方案的通知</txtTitle>
+					<txtLaiWenHao>南人办〔2018〕97号</txtLaiWenHao>
+					<txtLaiWenDept>市人大</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>8c7b9c42-829b-466c-875c-7c14b0a06433
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会转发国家发展改革委办公厅关于开展PPP项目库规范核查促进PPP持续健康发展的通知
+					</txtTitle>
+					<txtLaiWenHao>桂发改投资〔2018〕713号</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/8/1 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ff28ce76-61be-423c-a4e3-5478693695fe
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送2018年上半年定点扶贫工作总结的通知</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市扶贫办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>241fd042-de35-40b5-98a1-c88de10cfc9d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于全面检审中央环境保护督察反馈“环境空气质量下降问题”整改完成情况的紧急通知</txtTitle>
+					<txtLaiWenHao>南环函〔2018〕584号</txtLaiWenHao>
+					<txtLaiWenDept>市环保局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>4c76c8b4-19f8-4a9d-a0c5-227961d35245
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于召开2018年棉花进口滑准税配额申报工作会议的函</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>36825fd5-3ad4-434a-b7e7-380759f5dd78
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会关于做好2019年公共实训基地建设专项中央预算内投资计划编制工作和加强事中事后监管的通知
+					</txtTitle>
+					<txtLaiWenHao>桂发改社会〔2018〕719号</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>0b5c1891-2ae6-46a6-845c-0b075437f747
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求有关禁毒事项意见的函（批示件）</txtTitle>
+					<txtLaiWenHao>2018-8-B-46</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/25 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>73e1abee-13b9-4193-af21-20198c292a99
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送南宁市集中式饮用水水源地环境问题清理整治进展情况表（2018年6月）及督查组交办问题整治工作进展的请示（批示件）
+					</txtTitle>
+					<txtLaiWenHao>2018-6-H-163</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>00c5c8d8-28c2-4e29-946c-361537d7517d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会关于报送农业农村投资项目相关材料的通知</txtTitle>
+					<txtLaiWenHao>桂发改农经〔2018〕721号</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1485427f-793f-4b18-a9e7-0aaeabc756a6
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于第十二届园博会筹办工作指挥部第三十二次工作例会议题（补充三）征集意见的函</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市园博办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/25 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>5afbef4f-cb91-4e55-8be3-7d54282789ce
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于全市2018年1-5月财政扶贫资金和统筹整合财政涉农资金预算执行进度情况的通报</txtTitle>
+					<txtLaiWenHao>南扶领资金专责〔2018〕49号</txtLaiWenHao>
+					<txtLaiWenDept>市资金政策专责小组</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>cb4590df-6aa5-4fa7-b6ab-19ef1e153c48
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于南宁市投资项目管理手机APP上线应用的通知</txtTitle>
+					<txtLaiWenHao>南府办函〔2018〕200号</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ffa5394a-4765-489e-a67e-3b281fed75d4
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁产业发展基金决策委员会2018年第一次会议纪要</txtTitle>
+					<txtLaiWenHao>〔2018〕1号</txtLaiWenHao>
+					<txtLaiWenDept>南宁产业发展基金决策委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>5718466f-f2cc-45c8-ab4c-b0a62abd860d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>中共南宁市委员会组织部转发自治区党委组织部《关于进一步加强组织部门调查研究工作的通知》的通知</txtTitle>
+					<txtLaiWenHao>南组通〔2018〕39号</txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委员会组织部</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>997573c6-78a8-4d65-8da4-fb8e8c2f4220
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于更新2018年应急管理通讯录的通知</txtTitle>
+					<txtLaiWenHao>南应急函〔2018〕40号</txtLaiWenHao>
+					<txtLaiWenDept>市应急办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/14 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>2bc07695-a8bd-486a-a77f-6dade0f2087d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>研究邕江上游引水工程一期工程设计变更有关问题会议纪要</txtTitle>
+					<txtLaiWenHao>〔2018〕175号</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>3819773a-9776-4c1d-beef-70d3f0e8c0f2
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市-气象服务信息-2018050-中考天气及周报</txtTitle>
+					<txtLaiWenHao>2018050</txtLaiWenHao>
+					<txtLaiWenDept>市气象局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>774f8e09-9ebf-4cd1-b9c6-cd7ca59de6cb
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>研究西江在建船闸工程项目有关问题的纪要</txtTitle>
+					<txtLaiWenHao>桂政阅（2018）50号</txtLaiWenHao>
+					<txtLaiWenDept>自治区政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>0aa953d4-b593-4a60-bf60-407b0f701ec7
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于转发《南宁市总工会办公室关于转发〈南宁市2018年“全民禁毒宣传月”活动工作方案〉的通知》的通知
+					</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市直属机关工会工作委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>4f7584ad-b851-44e2-b4d7-e1e6dfb82c4a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市人力资源和社会保障局关于协助提供关于构建和谐劳动关系实施意见落实情况的函</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市人力资源和社会保障局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>73ddf97a-e8a7-4aeb-be92-084d428d0578
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>自治区服务业发展办公室关于召开服务业企业上限上规入统工作现场经验交流会的通知</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>324ce10e-0447-4366-81d8-4b06e1b646a2
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市扶贫开发领导小组联席会议纪要</txtTitle>
+					<txtLaiWenHao>南扶领纪〔2018〕5号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市扶贫开发领导小组</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>442a0a32-8e20-4fc2-96fe-484635bc40fb
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>中共南宁市委办公厅 南宁市人民政府办公厅关于成立南宁市农垦改革工作领导小组的通知</txtTitle>
+					<txtLaiWenHao>南办发〔2018〕53号</txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委员会办公厅</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>11b9036e-d024-4c43-a7f6-ccb31e6c4db4
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市扶贫开发领导小组联席会议纪要</txtTitle>
+					<txtLaiWenHao>南扶贫纪〔2018〕6号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市扶贫开发领导小组</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>9902f4b7-2c9f-457d-9f3d-a3e416828f3e
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于开展宫颈癌四价疫苗接种工作的通知</txtTitle>
+					<txtLaiWenHao>南直工会通〔2018〕16号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市直属机关工会工作委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>487193d8-70f7-47ee-971c-13a3e13debff
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于协助自治区人大常委会开展全区2018年上半年国民经济和社会发展计划、预算执行情况调研的通知（批示件）
+					</txtTitle>
+					<txtLaiWenHao>2018-综二-Z2-10</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/25 15:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>be54cc2d-7123-425e-9729-5df137ae18bc
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>九三学社南宁市委员会关于开展2018年市委重点调研课题调研的函</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>九三学社南宁市委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/28 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>c245a2b1-7615-4797-91c4-36de5a9a4e7f
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>中国联通南宁市分公司赴南宁市政府拜访刘为民副市长的函（批示件）</txtTitle>
+					<txtLaiWenHao>2018-3-B-167</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>d250b3dd-7a6e-424c-b4a7-516eb30684ab
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会关于做好2018年棉花进口滑准税配额申报工作的通知</txtTitle>
+					<txtLaiWenHao>桂发改贸服〔2018〕709号</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6021623b-4e38-4ab6-9f9b-79a419df83cf
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于申请对南宁市智慧环卫信息管理系统（一期）项目初步设计内容变更的请示</txtTitle>
+					<txtLaiWenHao>南环卫报〔2018〕64号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市环境卫生管理处</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b472848a-1776-464a-903d-c810a119cc0e
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于举行新党员入党宣誓仪式的通知</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市直属机关工作委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>0233b711-aed1-4353-8319-c0bbee4f6634
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>自治区民政厅关于开展广西养老服务业发展“十三五”规划中期评估工作的函（批示件）</txtTitle>
+					<txtLaiWenHao>2018-3-B-169</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>4d2e5fc3-09cf-4b67-8b3a-90fdb20bbd1f
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于请予出具南宁市2018-2020年棚户区改造项目(第二批)可研批复的函</txtTitle>
+					<txtLaiWenHao>南建函[2018]1047号</txtLaiWenHao>
+					<txtLaiWenDept>市城乡建委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>a8401f53-c014-4e18-b32b-f52c16f03a2d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于请予出具南宁市秀灵友爱立交片区改造项目(一期)可研批复的函</txtTitle>
+					<txtLaiWenHao>南建函[2018]1050号</txtLaiWenHao>
+					<txtLaiWenDept>市城乡建委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>196ef8c1-d1d0-434a-8aa7-b3e6844681d0
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>都市圈研究专题座谈会</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>40ed20b6-7833-47dd-8ff0-c1cbb2c78965
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求广西陆域生态保护红线划定方案（第二次征求意见稿）意见的函（批示件）</txtTitle>
+					<txtLaiWenHao>2018-6-H-164</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e5589ec5-335e-464c-8691-f8c344781634
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市移民搬迁专责小组2018年第十三次工作例会会议纪要</txtTitle>
+					<txtLaiWenHao>南移民组纪要[2018]13号</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 10:10:49</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>d0e82402-ddcf-41c4-a908-f0d99d97daa8
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>中央宣传部“百城百县百企”调研活动南宁课题调研方案</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>���委宣传部</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f95d685a-aa8a-46b8-94c3-a21fae0ad89b
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>转发国家粮食和物资储备局关于开展2019年粮食产业项目投资建设需求调查的通知</txtTitle>
+					<txtLaiWenHao>桂粮办电[2018]21号</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/25 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>99b5ac34-a294-429b-b475-fc73b32e598e
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>自治区物价局关于填报电子证照数据有关事项的通知</txtTitle>
+					<txtLaiWenHao>桂价查函〔2018〕222号</txtLaiWenHao>
+					<txtLaiWenDept>自治区物价局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>7010c135-1515-4aa1-8ea6-35b54c18b4f6
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市精神文明建设委员会会议纪要2018年第1号</txtTitle>
+					<txtLaiWenHao>2018年第1号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市精神文明建设委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>af40b352-2437-471b-b65d-0e923c5ad6e0
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于请求给予马山县村级光伏扶贫电站实施方案批复的请示</txtTitle>
+					<txtLaiWenHao>马发改报〔2018〕40号</txtLaiWenHao>
+					<txtLaiWenDept>马山县发展改革和科学技术局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>245dfba0-d759-4533-84dd-e7b0a5d19d27
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送经济体制改革工作总结的函</txtTitle>
+					<txtLaiWenHao>南编办函〔2018〕299号</txtLaiWenHao>
+					<txtLaiWenDept>无</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f4c05a2f-bfea-4113-ad4a-ac71862d0ddb
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市精神文明建设委员会关于印发《南宁市文明村镇创建管理办法》的通知</txtTitle>
+					<txtLaiWenHao>南文委〔2018〕6号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市精神文明建设委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ce1d30c2-9534-4b00-8bc9-a15bda76e81e
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于委托代建“智慧南宁”指挥中心项目的请示</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市经济信息中心</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>fd31d704-ed2f-4e81-9583-4a3e4adf21f2
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市精神文明建设委员会关于印发《南宁市关于深化群众性精神文明创建活动的实施意见》的通知</txtTitle>
+					<txtLaiWenHao>南文委〔2018〕8号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市精神文明建设委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>50785642-ea63-4679-b767-2558454d8270
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>自治区扶贫开发领导小组移民搬迁专责小组关于开展2017
+						年度扶贫成效考核等反馈广西易地扶贫搬迁工作存在问题整改落实情况专项督查的通知</txtTitle>
+					<txtLaiWenHao>桂移民组发[2018]43号</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>cf949573-367d-4afd-9e23-a752b4fd94dc
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市精神文明建设委员会关于印发《南宁市文明单位创建管理办法》的通知</txtTitle>
+					<txtLaiWenHao>南文委〔2018〕7号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市精神文明建设委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>7e885441-28ff-4bb3-87d1-ff15c6ea7744
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于开展南宁市创建国家生态文明建设示范市技术评估的函（批示件）</txtTitle>
+					<txtLaiWenHao>2018-6-H-162</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/22 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ab7b639f-37a0-4722-8988-4af702d92130
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于办理人民网网友给市长留言的函（虹桥路大唐印象小区物业收费贵）</txtTitle>
+					<txtLaiWenHao>网友留言转办函〔2018〕603号</txtLaiWenHao>
+					<txtLaiWenDept>市政府督查室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>129f7550-d489-4a75-9669-d86b47a5c39f
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市城市轨道交通建设指挥部2018年第四次工作会议纪要</txtTitle>
+					<txtLaiWenHao>南轨道指挥部纪要〔2018〕7号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市城市轨道交通建设指挥部</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/5 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>3cfc6a92-aba5-46e5-b0d1-eb8cde34774f
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市迎接自治区成立60周年大庆重大公益性项目进展情况的报告（批示件）</txtTitle>
+					<txtLaiWenHao>S2226</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>428ca16c-a01b-414e-9796-3d47d89a2f0c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发《南宁市人大常委会第二调研组开展南宁市迎接自治区成立60周年项目实施情况专题调研方案》的通知（批示件）
+					</txtTitle>
+					<txtLaiWenHao>2018-综二-Z2-13</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>10d1e31a-e889-4c5d-a60f-908c7857caa4
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会关于做好2019年度西部大开发重点项目前期工作补助专项计划草案编制工作的通知
+					</txtTitle>
+					<txtLaiWenHao>桂发改西部〔2018〕708号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f11b2869-f7be-4fba-a8e3-bec819a28008
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市投资促进局关于征求东旭集团&东旭光电科技股份有限公司拟在我市投资项目意见的函</txtTitle>
+					<txtLaiWenHao>南投函〔2018〕146号</txtLaiWenHao>
+					<txtLaiWenDept>市投促局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>db789a42-dd50-40d2-844b-e8189198264f
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征集自治区党委重点课题材料的函</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委员会统一战线工作部</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/28 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>97f2942f-d02e-4c85-a69f-5ddd1f8874ee
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>亭洪路9号金盾机动车检测站停车费过高的问题</txtTitle>
+					<txtLaiWenHao>18062124109</txtLaiWenHao>
+					<txtLaiWenDept>市长公开电话办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/5 23:59:59</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f029b14b-cb8e-4009-88aa-9bced904bca3
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市审计局对南宁市2016-2017年度政府投资建设项目招投标情况进行审计调查的通知</txtTitle>
+					<txtLaiWenHao>南审中心通〔2018〕19号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市审计局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>cc18f1e6-487a-4806-bba0-8f7dea27584b
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求南宁市本级会议费管理办法意见的函</txtTitle>
+					<txtLaiWenHao>南财行〔2018〕147号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市财政局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1984d4e4-2d0a-44e4-aeda-acd79573b772
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发南宁市2018年卫生和计划生育目标管理责任制考核工作方案的通知</txtTitle>
+					<txtLaiWenHao>南人口与计生组发[2018]2号</txtLaiWenHao>
+					<txtLaiWenDept>市人口与计生组</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/12/31 18:18:09</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f4585e9f-cdf6-4c24-b13f-6724e0270daf
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于提请审议专职消防队组建方案的请示(批示件)</txtTitle>
+					<txtLaiWenHao>2018-6-Q-216</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>50ae99d0-f519-47db-af36-e4963b904611
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求南宁市本级培训费管理办法意见的函</txtTitle>
+					<txtLaiWenHao>南财行〔2018〕165号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市财政局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>5583a438-d5a0-44b9-971a-38341d51ad34
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会关于提供冶金新材料产业相关材料的通知</txtTitle>
+					<txtLaiWenHao>桂发改工业〔2018〕707</txtLaiWenHao>
+					<txtLaiWenDept>无</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>73da1753-8353-46fe-b8d9-a439ea81f8bc
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于深入推进审批服务便民化的指导意见（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-F-386</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>382d8a2f-e685-44af-b75c-376903829916
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于定期报送南宁市水环境质量管理提升工作任务进展情况的通知</txtTitle>
+					<txtLaiWenHao>南环委办〔2018〕86号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市环境保护委员会办公室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/12/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>411076b9-3b9d-4b33-905d-8bb4f2929457
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市人力资源和社会保障局 南宁市财政局
+						南宁市绩效考评领导小组办公室关于发放2017年度市直机关绩效考评奖金的通知</txtTitle>
+					<txtLaiWenHao>南人社发〔2018〕35号</txtLaiWenHao>
+					<txtLaiWenDept>市人社局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/23 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>dbd8ad94-1992-4473-a277-b112a612e521
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求《关于做好第二届东盟地区论坛城市应急救援交流演练系列活动筹办工作的通知（征求意见稿）》意见的通知
+					</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市消防支队</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6bd46c8b-bb3b-4b68-b7ce-6b93d8d2dc62
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发《南宁市人大常委会第二调研组开展南宁市迎接自治区成立60周年项目实施情况专题调研方案》的通知
+					</txtTitle>
+					<txtLaiWenHao>南人办〔2018〕94号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市人大常委会办公厅</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>5fb48332-8251-4a87-9850-7e43a152d90d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>请填写《政府工作专报》跟踪事项汇总表（6月）</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>d2d6dfdd-c75f-45bb-a1fc-cf99356b6451
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于做好2018年度自治区中期察访核验迎检工作的通知</txtTitle>
+					<txtLaiWenHao>南绩办发[2018] 10号</txtLaiWenHao>
+					<txtLaiWenDept>市绩效办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/28 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>551f99bf-b5c6-4ef4-8d4d-f89c6df74d94
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于请予提供高标准农田建设统一上图入库相关情况的函</txtTitle>
+					<txtLaiWenHao>南国土资函〔2018〕1443号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市国土资源局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>29262a94-a6fb-4bd5-a1d1-671fda8e1b7d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市人民政府督查室关于对南宁市2018年政府工作报告量化分解任务进行督查的通知</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市政府督查室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/5 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>61662e8f-7871-4783-9de8-287ed4befaf8
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于举办全市离退休干部“七一”电影招待会的通知</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委员会老干部局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>d9b739eb-c365-47a8-8865-91e27e9712c1
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市网络与信息安全信息通报——2018年5月安全监测月报</txtTitle>
+					<txtLaiWenHao>2018年第8期</txtLaiWenHao>
+					<txtLaiWenDept>市网安通报中心</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>fda52f9a-cade-4844-85bc-85f4a2950028
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>研究将那平江支流4直排口污水临时收集系统项目纳入凤岭北路—高速环路立交(二期工程)会议纪要</txtTitle>
+					<txtLaiWenHao>南建纪要[2018]256号</txtLaiWenHao>
+					<txtLaiWenDept>市城乡建委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>fae4f5d8-50fc-4e6a-8258-65391c882195
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发南宁市水污染防治行动2018年度计划的通知</txtTitle>
+					<txtLaiWenHao>南府办函〔2018〕198号</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/23 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>0ac79db9-4676-4110-a0bf-955ed5e39d01
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于申请调整南宁市江南区扬美古镇景区中央预算内投资计划建设内容的函</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>江南区政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/5 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>73a71ca7-b834-40e0-80d3-f462fbd7bebb
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>宁夏通报13起违反中央八项规定精神典型问题</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>9566db6b-da93-4901-a771-007d1f99f659
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发贯彻落实《南宁市人民政府党组关于〈自治区人民政府党组2017年度民主生活会整改落实方案〉工作任务分解表的通知》工作方案的通知
+					</txtTitle>
+					<txtLaiWenHao>南工信党〔2018〕5号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市工业和信息化委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/5 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>710b90be-eb04-4a9c-983c-1b46bc8d9203
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区推进“一带一路”有机衔接重要门户暨南向通道建设工作领导小组办公室关于印发广西壮族自治区贯彻落实中老合作规划纲要任务的分工方案的通知（批示件）
+					</txtTitle>
+					<txtLaiWenHao>2018-2-F-377</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/19 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>4121da14-6e2c-486d-80a6-3c2fc3188ebb
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于撤销南宁市2017年农口建设项目（第二批）市本级财政渔业标准化生态养殖建设示范项目（南宁市盛达水产鱼苗养殖场标准化养殖基地建设项目）的请示
+					</txtTitle>
+					<txtLaiWenHao>南发改报〔2018〕10号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市江南区发展和改革局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/5 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>eac7c91a-1c09-4081-a52d-1767d9a6bf97
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求《南宁市2018年度创建国家生态文明建设示范市宣传工作方案（征求意见稿）》修改意见的函
+					</txtTitle>
+					<txtLaiWenHao>南环函〔2018〕580号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市环境保护局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/23 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>be4b3c30-d140-4e14-b907-dc50c975d219
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求《南宁市住宅小区配套幼儿园产权移交工作方案》（征求意见稿）意见的通知</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>a5cbc579-cb71-4cc6-9765-ecb7eb9f5269
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于开展2018年上半年“美丽南宁”乡村建设活动县区（开发区）及乡镇（街道）和市直重点责任单位工作目标专项考评工作的通知
+					</txtTitle>
+					<txtLaiWenHao>南乡村办发〔2018〕30号</txtLaiWenHao>
+					<txtLaiWenDept>市乡村办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/5 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e297aa9c-a26b-4e54-8389-44f60e2b5c28
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会关于举办2018年全区发展改革系统经济体制改革培训班的通知</txtTitle>
+					<txtLaiWenHao>桂发改经体〔2018〕701号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>5a6443dd-3967-40d6-8ffb-c0b47315a362
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会关于征求深入实施大数据战略加快数字广西建设意见的通知</txtTitle>
+					<txtLaiWenHao>桂发改高技〔2018〕704号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6ec69ad2-81ed-412e-9c04-34c3b2c0eb1c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于请予协助提供有关材料的函</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>市发展研究中心</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>59482513-961d-4d46-b383-f99edb5e70cb
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发首府南宁迎接国家卫生城市复审建筑工地环境卫生综合整治工作方案的通知</txtTitle>
+					<txtLaiWenHao>南创卫办〔2018〕63号</txtLaiWenHao>
+					<txtLaiWenDept>市创卫办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>beb2586c-f436-4e79-af70-54c0cf698179
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>中共南宁市委关于成立南宁市机构改革领导小组的通知</txtTitle>
+					<txtLaiWenHao>南委〔2018〕138号</txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>bd19ef72-e1c5-4854-99dc-16111c8a694f
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于召开《深入实施大数据战略加快数字广西建设的意见（征求意见稿）》修编专题会的函</txtTitle>
+					<txtLaiWenHao>桂发改高技函〔2018〕1592号</txtLaiWenHao>
+					<txtLaiWenDept>自治区发改委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>7a8291a9-92c4-4611-bc93-c2140e2d033f
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于协助做好自治区环境保护厅到我市开展创建国家生态文明建设示范市技术评估有关工作的函</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市创建国家生态文明建设示范市工作领导小组办公室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/28 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>3018657b-f638-4875-8ca3-e8140cd66d5c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>永凯现代城小区地下停车场停车费问题</txtTitle>
+					<txtLaiWenHao>18062022063</txtLaiWenHao>
+					<txtLaiWenDept>市长公开电话办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/4 23:59:59</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>c18c78fd-1800-4a6c-a11b-17591711c5b0
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送国家及自治区级改革试点的进展情况及承担市级改革试点情况的通知</txtTitle>
+					<txtLaiWenHao>南改办通〔2018〕32 号</txtLaiWenHao>
+					<txtLaiWenDept>市委政研室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f01684e8-307e-4087-b680-4d49901df8f3
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>自治区北部湾办关于召开中新南宁国际物流园基础设施建设推进协调会的函（批示件）</txtTitle>
+					<txtLaiWenHao>2018-5-18G-410</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>2ed5b3ce-0efc-4ed2-8d6b-42ae1c08a558
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于进一步做好易地扶贫搬迁后续扶持进展情况报送工作的通知</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>402e102b-e0f0-4ab1-949f-f51231ebfec8
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于敬请收看广西卫视《讲政策》节目的函</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>aaeac6a3-b321-45a7-aecf-616b1dd55e0a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发《在全市（镇、街道）、村（社区）创建“新时代讲习所”工作方案》的通知</txtTitle>
+					<txtLaiWenHao>南办发〔2018〕49号</txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委员会办公厅</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/5 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>94ee7572-8be9-4fd1-9a78-e03f1e75eebe
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求《广西工业企业分类管理办法实施细则》意见的函（批示件）</txtTitle>
+					<txtLaiWenHao>2018-6-G-95</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/21 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>bf3c7628-d424-4135-8118-487168ef6229
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送2019年粮食安全保障调控和应急设施项目需求的通知</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>553b29d0-03c6-463b-97ed-eed295cd1d5a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市商务局关于征求南宁市重要产品追溯体系建设工作局际联席会议制度(征求意见稿)意见的函</txtTitle>
+					<txtLaiWenHao>南商务函〔2018〕258号</txtLaiWenHao>
+					<txtLaiWenDept>市商务局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/23 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>8a6f4848-2e21-4c09-89df-1a43a11b9883
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>研究广西车用特种设备检验检测中心迁建用地工作专题会议纪要</txtTitle>
+					<txtLaiWenHao>〔2018〕169号</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>2982d723-aa77-408b-af67-ad09c6ecb2ce
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>研究南宁良凤江国家森林公园建设项目有关问题会议纪要</txtTitle>
+					<txtLaiWenHao>工作专题会议纪要〔2018〕172号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市人民政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/4 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1030b4cc-9482-4ea8-804b-33c603613c95
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于田家全、洪奔同志免职的通知</txtTitle>
+					<txtLaiWenHao>南府干〔2018〕19号</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>8923630a-24e0-490e-a9fc-96c8b29f2bb6
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>第十二届园博会指挥部第三十一次工作例会纪要</txtTitle>
+					<txtLaiWenHao>工作会议纪要〔2018〕12号</txtLaiWenHao>
+					<txtLaiWenDept>第十二届中国（南宁）国际园林博览会筹办工作指挥部</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>d3d7e164-70b1-4f97-b304-579385714e91
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于秦运彪、唐斌同志任免职的通知</txtTitle>
+					<txtLaiWenHao>南府干〔2018〕18号</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6082ab6e-74ba-4b65-b818-f051c00d6589
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送全民健身和全民健康深度融合试点工作上半年工作总结及下半年工作计划的函</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市体育局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/25 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>3f8c23d4-fe6a-4313-8713-e49e923fcf59
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发《广西壮族自治区生态环境损害赔偿制度改革实施方案》方案的通知</txtTitle>
+					<txtLaiWenHao>桂办发〔2018〕27号</txtLaiWenHao>
+					<txtLaiWenDept>中共广西壮族自治区委员会办公厅</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>09762dd8-a8bd-4d0e-9567-62fc2dc469f3
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求调整教育园区建设领导小组成员意见的函</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>南宁教育园区规划建设指挥部</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/21 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>32da0cc1-0ee5-44ed-a451-e8873fedc6ec
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>中共南宁市委督查室关于2018年1-5月决策督查件领导批示件办理情况的通报</txtTitle>
+					<txtLaiWenHao>南督通报〔2018〕2号</txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委督查室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6b7a05fb-72c4-4a6e-a7b8-f10a4aa3c0e0
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求中国横县茉莉小镇（横县校椅镇）产业策划研究等相关材料修改意见的函</txtTitle>
+					<txtLaiWenHao>南建函〔2018〕1230号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市城乡建设委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>89c0e8f7-4d26-49cb-8dda-378186a82392
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于召开南宁市2018年重大项目建设工作会议的请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-A-164</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/23 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f493242a-f0e4-479b-8e9e-7d5f6b8203e9
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于邀请参加泛珠区域高铁经济带建设工作现场会暨第四届粤桂黔高铁经济带合作联席会议的函（批示件）
+					</txtTitle>
+					<txtLaiWenHao>2018-2-F-403</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/21 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>29076f60-856e-4841-ad95-d2d31e90d8d1
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发广西壮族自治区“优质粮食工程”项目资金管理暂行办法的通知</txtTitle>
+					<txtLaiWenHao>桂粮发〔2018〕32号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区粮食局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/4 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ac693161-c2a0-415e-a08d-14612b66dbb5
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于组织查看预拌混凝土生产项目选址现场暨召开联席协商工作会的通知</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市工信委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/21 10:30:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e93dad69-24da-4f58-9022-76e97d4d27fd
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>第三届中国信用建设创新发展峰会——“2018中国信用建设十佳创新典范城市”案例征选暨推荐提名</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>国家发改委宏观经济管理编辑部</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/23 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>034e9eb3-c196-4a1e-a741-0cb52a618d11
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于核对《南宁市2018年上半年经济运行情况及下一步工作安排》数据的函</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市委政研室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/20 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>59e4be58-7d38-4dc0-a6b2-46f33c00ecfa
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于做好近期建筑垃圾治理试点工作的函</txtTitle>
+					<txtLaiWenHao>南城管函〔2018〕706号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市城市管理局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/1 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>4930ec07-23f1-447f-a99c-234b22cf0a95
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市产业富民办公室关于报送产业富民专项活动2018年上半年工作总结和下半年工作计划的通知</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市农委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>11f5266f-1700-45b6-b7f9-a19d1cc3a631
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求推荐纳入2017年度广告行业诚信“红名单”企业意见的函</txtTitle>
+					<txtLaiWenHao>南工商函〔2018〕440号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市工商行政管理局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/20 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>a5c3366d-2f6f-4147-b502-b40e97515812
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会关于请将中新互联互通南向通道重大子项目申���纳入国家“一带一路”重大项目储备库的函
+					</txtTitle>
+					<txtLaiWenHao>桂发改西部函〔2018〕1587号</txtLaiWenHao>
+					<txtLaiWenDept>自治区发改委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/11 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>5a6f772d-6f0f-455f-b4d2-55a994ab9c58
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于参加南宁市2018年度考试录用公务员面试工作的通知</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市人力资源和社会保障局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 15:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>c11e26f0-f331-4aac-942a-a626d9452433
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发2018年市直机关发展党员指导性计划的通知</txtTitle>
+					<txtLaiWenHao>南直党工通〔2018〕23号</txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市直属机关工作委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>37bed423-b8ac-48d2-bd94-621d33275c17
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于公布第一批执行农产品冷链物流低谷时段用电企业名单的通知</txtTitle>
+					<txtLaiWenHao>桂价格〔2018〕52号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区物价局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/4 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>13d963cb-6f9a-4c5e-84b5-af256bce1e33
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于进一步做好居民用电促销工作的通知</txtTitle>
+					<txtLaiWenHao>桂价格〔2018〕51号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区物价局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/4 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>5656d6fa-e82a-40c6-aa02-c7e5864f8e90
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发南宁市落实广西强化实施创新驱动发展战略进一步推进大众创业万众创新深入发展实施方案任务分解表的通知
+					</txtTitle>
+					<txtLaiWenHao>南府办函〔2018〕197号</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>142000dd-93c6-4944-b0e7-ed3a52fb07aa
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于请协助做好2018年引智招商推介会的通知</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>自治区北部湾办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1235548a-728b-4fa3-b441-b20d3fb39234
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>续办：关于请求支持宾阳县民族中学迁建项目建设的请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-3-A-63</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>d85f0701-95e4-4143-94c4-b7f7a68aae3c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>案件线索移动函（南宁远东医院）</txtTitle>
+					<txtLaiWenHao>南卫监所函〔2018〕11号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市卫生计生监督所</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/8/20 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1e705e6f-21f1-4e9e-9da4-774d10edafc7
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市-气象服务信息-2018049-降雨预报</txtTitle>
+					<txtLaiWenHao>2018049</txtLaiWenHao>
+					<txtLaiWenDept>市气象局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>a89ba05e-1d9a-4013-970e-ed356361fc8c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市人民政府关于印发南宁市2015-2017年重大林业有害生物防治目标责任书履责情况整改方案的通知
+					</txtTitle>
+					<txtLaiWenHao>南府办函〔2018〕199号</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>615e2c5e-ca2a-42ee-ac6a-b1b3f6430e05
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>市委全面深化改革领导小组农村综合改革专项小组办公室关于印发2018年农村综合改革专项小组工作方案和督察方案的通知
+					</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市农委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f410565a-1602-45c5-9a44-ae59f1fa250b
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市发展改革委员会网络咨询处理审批单（韦苇）</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/4 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>9a1e9d97-0f7e-434a-89b2-d027c460471e
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市发展改革委员会网络咨询处理审批单（李友鸣）</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/5 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>54d5a481-4642-4935-9080-5e1784a4ae39
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市发展改革委员会网络咨询处理审批单（陈燕华）</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/3 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>080ea637-c23e-4d61-8693-b2f8b1f359de
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市发展改革委员会网络咨询处理审批单（陈碧贤）</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/4 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>84ca8894-b698-4e95-87ee-c9cb4107d707
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>2018年5月份王小东书记批示件办理情况表</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>市委办公厅督查室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e2d5e94a-0a0a-48df-b6dc-bbe60709412a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于按时报送《广西产业扶贫2018春季大培训工作进度表》和培训工作总结的通知</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市扶贫开发领导小组产业开发专责小组</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/20 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>8e7ee344-c3ed-4a80-9a49-e1322cf95ff2
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求成立南宁市第一人民医院相思湖医院（南宁市卫生学校附属医院）PPP项目工作小组意见的函</txtTitle>
+					<txtLaiWenHao>南卫函〔2018〕240号</txtLaiWenHao>
+					<txtLaiWenDept>市卫计委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/23 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e77026fc-53fc-4db4-bab2-e8689344eea2
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于审定南宁国际旅游中心租用面积和功能需求的请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-7-P-071</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b873a105-f2d3-4bc6-b403-b8305274f222
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于审定南宁市2018年PPP项目年度开发计划的请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-F-394</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/23 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>328bc141-b3be-4a83-8efb-6c77cd6e67af
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于审定新版南宁市政府门户网站首页页面设计方案的请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-A-155</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/23 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>c95d5da9-22ee-4027-ad8a-89ad3221fd96
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送2018年上半年开展改革督察相关材料的通知</txtTitle>
+					<txtLaiWenHao>南改城建生态[2018]16号</txtLaiWenHao>
+					<txtLaiWenDept>市委改革办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/23 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>443301f0-3275-4df1-85b5-454f1656e4eb
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求调整南宁市建设质量强市工作领导小组组成人员名单的函</txtTitle>
+					<txtLaiWenHao>南强市办函〔2018〕5号</txtLaiWenHao>
+					<txtLaiWenDept>市强市办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/23 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>a4e6f5f5-4ca3-41d1-9928-2a6cc132d671
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于开展南宁市应急管理系统记二等功评选推荐工作的通知</txtTitle>
+					<txtLaiWenHao>南应急函[2018]39号</txtLaiWenHao>
+					<txtLaiWenDept>市应急办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ce4caaae-1fcb-4647-b3f5-7ca9e08faa1b
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于下达2018年对种粮农民直接补贴资金及工作经费的通知（桂粮办发〔2018〕109号）</txtTitle>
+					<txtLaiWenHao>桂粮办发〔2018〕109号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区粮食局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/4 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>86289a43-e954-47ce-ad4c-11557a29460b
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发《落实2018年广西政府代表团访问澳门、香港成果任务分解表》的函（批示件）</txtTitle>
+					<txtLaiWenHao>2018-5-18G-402</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1bf37bab-5ee9-4e90-ad6a-7d3308e14e96
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>联发西棠春晓楼盘收取服务费的问题</txtTitle>
+					<txtLaiWenHao>18061931061</txtLaiWenHao>
+					<txtLaiWenDept>市长公开电话办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/3 23:59:59</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>807306d1-3318-493f-be12-42207ca87693
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市环境保护委员会办公室关于印发《南宁市大气污染防治2018年度实施计划》的通知</txtTitle>
+					<txtLaiWenHao>南环委办〔2018〕85号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市环境保护委员会办公室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/4 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>095f0c76-778c-4a0b-b345-e7276b8fe9e4
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>区“一带一路”办关于请提供2018年上半年参与“一带一路”建设工作总结的函（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-F-391</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>9383bd1c-3215-43fb-be83-b340bea68e2a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>粤桂合作交流暨扶贫协作第三次联席会议纪要（批示件）</txtTitle>
+					<txtLaiWenHao>2018-3-A-75</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/21 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1d20aa05-6d9e-4adc-9ef7-9c3f22aec793
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于2016年度党派重点调研课题成果转化考评复核情况的通报</txtTitle>
+					<txtLaiWenHao>南督通报〔2018〕2号</txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委督查室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>79319f64-7ec9-42a8-8e08-c98bcae36916
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于建立经济交流合作关系的函（批示件）</txtTitle>
+					<txtLaiWenHao>2018-6-T-32</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e734eaa8-3d94-41c2-9ed6-b1eafb340da1
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求南宁市申报国家知识产权示范城市工作实施方案（征求意见稿）修改意见的函</txtTitle>
+					<txtLaiWenHao>南知函[2018]6号</txtLaiWenHao>
+					<txtLaiWenDept>市知识产权局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/25 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>7fc6e470-ff92-4bf2-8294-e007281f589a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁职业技术学院关于修��危旧房改住房改造项目拟建地点的请示</txtTitle>
+					<txtLaiWenHao>南职院报〔2018〕77号</txtLaiWenHao>
+					<txtLaiWenDept>南宁职业技术学院</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/4 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>5af6d0fa-ec7e-444c-9093-63420ff6e87a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于开展落实破解第一、二季度群众办事堵点问题工作任务的通知</txtTitle>
+					<txtLaiWenHao>南审批发[2018]36号</txtLaiWenHao>
+					<txtLaiWenDept>市审批局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/4 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>25e7e0d2-dc3b-4b80-88ef-3b8ef3ee51cc
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>自治区民政厅关于征求《广西健康养老服务业三年行动计划（2018-2020年）》（征求意见稿）修改意见的函（批示件）
+					</txtTitle>
+					<txtLaiWenHao>2018-3-A-77</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/21 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/20 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>8b20482b-7dfa-4428-b9bb-b41d8d2b507d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区人民政府关于取消下放和调整一批行政许可事项的决定</txtTitle>
+					<txtLaiWenHao>桂政发（2018）29号</txtLaiWenHao>
+					<txtLaiWenDept>自治区政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>290d2ff3-453e-4d3e-a6fd-2068c4e1a87b
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于申请组织开展2017年南宁市为民办实事强基惠民工程之居民身份证自助办理项目竣工验收的函</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市公安局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>9e53b21b-128a-46e5-9a45-d070ef686032
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于对易地扶贫搬迁后续扶持和后续管理等资源配置进行上图管理的通知</txtTitle>
+					<txtLaiWenHao>桂移民组发【2018】41号</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>4fc6c703-90c3-478d-a064-548f129aec7d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求广西北部湾经济区产业基础设施投资（南宁）引导基金股权直投方案意见的函</txtTitle>
+					<txtLaiWenHao>南北部湾基办函〔2018〕1号</txtLaiWenHao>
+					<txtLaiWenDept>市北部湾基金办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>91579b28-24ac-4645-b0ee-4d6f54aab0c2
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区发展和改革委员会关于请派员参加“一带一路”南向开放规划工作研讨会的函</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/20 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>61b86953-71b0-4b97-8d63-c32c5dfab44c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于做好全区“一事通办”事项“八统一”梳理工作的通知（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-F-393</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/28 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b92f7bff-1597-4d3b-8c35-031bf8a0973f
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>发展改革要报（2018年第13期）——我区深化电力体制改革成效显著</txtTitle>
+					<txtLaiWenHao>2018年第13期</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>9a0fa140-9e53-4379-8ab4-d763b5789b8a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于第十二届园博会筹办工作指挥部第三十二次工作例会议题（补充二）征集意见的函</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市园博办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/20 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>81bb49c8-1de1-4bed-8628-7c5ff6697392
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市人大常委会办公厅关于印发《南宁市产业园区规划建设情况专题调研工作方案》的通知</txtTitle>
+					<txtLaiWenHao>南人办〔2018〕93号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市人大常委会办公厅</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/1 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>3db9a207-5d19-4cc0-bbed-99a3d259b80f
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发6月重点稿源单位信息报送要点的通知</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/30 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>95a70c9e-a985-4faa-849f-6d88d4c09b94
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发广西天然气产供储销体系建设实施方案的通知（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-F-378</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ea1b9382-8fda-4b71-b641-077478441318
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>铜鼓岭路中房翡翠园楼盘开发商变相抬高价格销售的问题.</txtTitle>
+					<txtLaiWenHao>18061926041</txtLaiWenHao>
+					<txtLaiWenDept>市长公开电话办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/3 23:59:59</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>61c7d3bd-13da-42bf-8985-4e184e8f1939
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市城市规划展示馆关于请予协助提供相关布展资料的函</txtTitle>
+					<txtLaiWenHao>南规馆函〔2018〕28号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市城市规划展示馆</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>81a4153a-68bb-4c2a-ab7a-994d7bda9677
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于组织开展“七五”保密法治宣传教育中期检查督导的通知</txtTitle>
+					<txtLaiWenHao>南保办〔2018〕6号</txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委保密委员会办公室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/11 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>259c123e-8971-4067-a5ce-9d4a680ffed1
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于广西壮族自治区图书馆分布式光伏发电示范工程专项资金补助有关意见的函</txtTitle>
+					<txtLaiWenHao>桂发改能源函〔2018〕1574号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区发展和改革委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/3 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>eaf725f6-2317-4b58-bfc3-2ec04b0a938a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于《中共南宁市委办公厅
+						南宁市人民政府办公厅关于2018年评选表彰南宁市先进单位、劳动模范和先进工作者的通知》（代拟稿）的征求意见函</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市评先委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/23 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>16856b5a-2e48-474e-a60e-71fbf9db70b3
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于开展政务新媒体基本情况调查摸底工作的通知（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-F-397</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/12 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>87719819-4215-4753-95bd-04833d8c114d
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于重新核定南宁市青秀区半岛卓立小学学费收费标准的请示</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/3 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>7b0d6fc0-df22-4774-a0dc-00ab39beba18
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于南宁卓立实验学校收费标准重新核定的请示</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/3 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>246c19ca-e085-40c6-8a95-8b4c127fd517
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于全力以赴解决第二季群众办事堵点问题的通知（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-F-399</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/19 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b42fcad0-ecca-4286-8741-8ba1c6b69d11
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区服务业发展办公室关于召开全区服务企业上限上规入统工作紧急电视电话会议的通知</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区服务业发展办公室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/21 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>7bc651b7-d592-4cb6-8307-c3c25e99767b
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区公务用车制度改革领导小组办公室关于收集基层车改中遇到的困难和问题情况的函</txtTitle>
+					<txtLaiWenHao>桂发改经体函〔2018〕1582号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区公务用车制度改革领导小组</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e164aadb-a3fe-4c7f-be9f-bb7fcfd1c03c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于在我市开展企业100强排序工作的请示</txtTitle>
+					<txtLaiWenHao>南企联〔2018〕8号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市企业和企业家联合会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/3 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>9f54fd87-bc71-44a3-a7f0-892205f494b5
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于报送南宁市公共资产负债管理职能云平台项目团队主要成员名单的通知</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市财政局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/19 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e0b35d92-1132-41a3-a544-933c204d78d4
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市扶贫开发领导小组办公室关于组织开展2018年度学习习近平扶贫思想和中国扶贫改革40周年征文活动的通知
+					</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市扶贫办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/3 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>acf65474-ec59-4ff4-9fa4-76e355d748bb
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于全区易地扶贫搬迁有关工作推进情况的通报（批示件）</txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/21 8:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>194afd5e-80d8-4d06-b478-14c202e8a850
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>中共南宁市委关于周中同志常委工作分工的通知</txtTitle>
+					<txtLaiWenHao>南委〔2018〕137号</txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b97e9581-01a7-4199-97a8-440111278a0a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于废止《南宁市文明村镇、文明社区、文明单位评选表彰管理办法》的通知</txtTitle>
+					<txtLaiWenHao>南办发〔2018〕48号</txtLaiWenHao>
+					<txtLaiWenDept>中共南宁市委员会办公厅</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ac2d812e-11b7-4374-a5bf-94e3e79f0d7c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于配合做好2018年上半年“美丽南宁”乡村建设活动工作目标专项考评调查问卷工作的通知</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市乡村办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/6 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>4216b830-3ed4-4674-b599-84511489dc6c
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>南宁市国有建设用地使用权招标拍卖挂牌委员会第四百零四次会议纪要</txtTitle>
+					<txtLaiWenHao>〔2018〕15号</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>0eb14c92-ae6b-4556-8484-3abf6acc6af9
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于提请“信用中国”网站对已公示有关中建八局第二建设有���公司行政处罚信息进行信用修复的函</txtTitle>
+					<txtLaiWenHao>南环函〔2018〕562号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市环境保护局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/3 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1665b2a5-694e-4c6c-bf24-b68c53434f98
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于提请“信用中国”网站对已公示有关中国建筑第八工程局有限公司行政处罚信息进行信用修复的函</txtTitle>
+					<txtLaiWenHao>南环函〔2018〕561号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市环境保护局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/3 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>8318f700-be69-4754-9cba-663bf0635d8b
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>发展改革要报（批示件）</txtTitle>
+					<txtLaiWenHao>S2233</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6fe269d6-de10-40cb-890b-fe38c333bd28
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于审定南宁市参加泛珠区域高铁经济带建设工作现场会暨第四届粤桂黔高铁经济带合作联席会议的工作方案的请示（批示件）
+					</txtTitle>
+					<txtLaiWenHao>2018-2-A-154</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/22 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b068d112-2809-4fad-a1db-e3ecfd487bc5
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于再次明确南宁市城市内河建成区外黑臭水体治理方式的请示（批示件）</txtTitle>
+					<txtLaiWenHao>2018-4-A-441</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/26 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>32b1ea83-4a56-4c72-869d-f1362670efed
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于印发2018年对我区种粮农民实行直接补贴与储备粮订单粮食收购挂钩实施方案的通知（批示件）</txtTitle>
+					<txtLaiWenHao>2018-2-F-383</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/28 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1cca8c54-af0c-4704-9271-671fc5b2dc13
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>龙门水都景区门票价格、景点游览价格是否在物价部门办理有关手续</txtTitle>
+					<txtLaiWenHao>18061823028</txtLaiWenHao>
+					<txtLaiWenDept>市长公开电话办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/2 23:59:59</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>5095a535-e180-49b2-80b2-bf1eb0718b71
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于征求广西高速公路网规划（2018-2030年）（征求意见稿）修改意见的函（批示件）</txtTitle>
+					<txtLaiWenHao>2018-6-J-52</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/21 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>9abf3b13-d819-4a75-988c-3688741a153a
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>广西壮族自治区粮食局办公室关于做好“粮安工程”粮食仓储设施智能化升级改造项目视频会议设备安装工作的通知
+					</txtTitle>
+					<txtLaiWenHao>桂粮办发〔2018〕107号</txtLaiWenHao>
+					<txtLaiWenDept>广西壮族自治区粮食局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/1 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>bef59016-803e-413e-9c09-bbd5c9c7bc47
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>关于核实数据和提法的紧急通知</txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/6/19 17:00:00</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>13a15a47-3314-471d-9c72-bf08f81868d6
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle>光明澜湾九里二期小区开发商强制收取车位费的问题</txtTitle>
+					<txtLaiWenHao>18061544077</txtLaiWenHao>
+					<txtLaiWenDept>市长公开电话办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/7/2 23:59:59</txtFileDate>
+					<txtShouWenDate>2018/6/19 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>061f8ba9-b10e-40b4-a171-827361d8426b
+					</ProcessVersionInstanceGuid>
+					<handelDateTimeMax>2018/7/10 9:21:42</handelDateTimeMax>
+				</Handle>
+			</HandleList>
+		</UserArea>
+	</DATA>
+</EpointDataBody>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.ICardLabelMapper" >
+  <sql id="Base_Column_List" >
+    id, label_id, card_id, create_id
+  </sql>
+  
+  <insert id="batchInsertByLabelList">
+  	insert into card_taker (id, label_id, card_id, create_id) 
+  	values
+  	<foreach item="item" collection="labels" separator=",">
+		(0, #{item}, #{cardId}, #{creatorId})
+	</foreach>
+  </insert>
+</mapper>

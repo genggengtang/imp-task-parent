@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:jee="http://www.springframework.org/schema/jee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.1.xsd
+        http://www.springframework.org/schema/jee
+		http://www.springframework.org/schema/jee/spring-jee-4.0.xsd
+        ">
+	
+    <bean id= "impTaskSqlSessionFactory" class= "org.mybatis.spring.SqlSessionFactoryBean" >
+        <property name ="dataSource" ref="impTaskDataSource" />
+        <property name ="typeAliasesPackage" value= "org.zxs.imp.task.dao.model" />
+        <property name ="mapperLocations" value= "classpath*:mapper/*.xml" />
+		<property name="configLocation" value="classpath:mybatis/mybatis-config.xml" />
+    </bean >
+    
+    <bean id="impTaskSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate" scope="prototype">
+	    <constructor-arg index="0" ref="impTaskSqlSessionFactory" />
+	</bean>
+    
+   <!-- 通用mapper -->
+	<bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">
+		<!-- basePackage配置的是继承了通用Mapper接口的业务接口 -->
+		<property name="basePackage" value="org.zxs.imp.task.dao.interf" />
+		<property name="properties" >
+			<value>
+				mappers=tk.mybatis.mapper.common.Mapper,tk.mybatis.mapper.common.special.InsertListMapper
+			</value>
+		</property>
+		<property name="sqlSessionTemplateBeanName" value="impTaskSessionTemplate" />  
+	</bean>
+	
+	<!-- <bean class="com.github.gonglb.tools.autoupdatetable.entrance.AutoTableTKMapperScannerConfigurer">
+		basePackage配置的是继承了通用Mapper接口的业务接口
+		<property name="basePackage" value="org.zxs.imp.task.dao.interf" />
+		<property name="properties" >
+			<value>
+				mappers=tk.mybatis.mapper.common.Mapper,tk.mybatis.mapper.common.special.InsertListMapper
+			</value>
+		</property>
+		<property name="sqlSessionTemplateBeanName" value="impTaskSessionTemplate" />
+		<property name="packs" value="org.zxs.imp.task.dao.model"/>
+		<property name="tableAuto" value="update"/>  
+	</bean> -->
+    
+    
+    <beans profile="test">
+		<bean id="impTaskDataSource" class="org.apache.commons.dbcp.BasicDataSource"
+			destroy-method="close">
+			<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+			<property name="url"
+				value="jdbc:mysql://localhost:3306/imp_task?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;autoReconnectForPools=true"/>
+			<property name="username" value="jiuyu" />
+			<property name="password" value="admin" />
+		</bean>
+	</beans>
+	
+	<beans profile="production">
+		<jee:jndi-lookup id="impTaskDataSource" jndi-name="java:comp/env/jndi/dbImpTask"
+			expected-type="javax.sql.DataSource" />
+	</beans>  
+
+</beans>

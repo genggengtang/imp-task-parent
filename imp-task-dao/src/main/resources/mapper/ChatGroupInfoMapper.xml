@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.IChatGroupInfoMapper" >
+  
+  <sql id="Base_Column_List" >
+    i.id, i.type, i.group_name groupName, i.enable_name_update enableNameUpdate, i.enable_remove enableRemove,
+    i.is_deleted isDeleted, i.create_at createAt, i.update_at updateAt
+  </sql>
+  
+  <select id="selectChatGroupByUser" parameterType="org.zxs.imp.task.dao.model.vo.query.PhoneListQuery"
+  	resultType="org.zxs.imp.task.dao.model.vo.output.ChatGroupSimpleOut">
+  	SELECT i.id, i.group_name groupName, i.enable_name_update enableNameUpdate, i.enable_remove enableRemove, i.create_at createAt,
+  		ui.real_name createName, c.groupNum
+  	FROM chat_group_info i LEFT JOIN chat_group_user u1 ON i.id = u1.chat_group_id
+  		LEFT JOIN chat_group_user u2 ON u1.chat_group_id = u2.chat_group_id AND u2.role = 0
+  		LEFT JOIN user_info ui ON u2.user_id = ui.id
+  		LEFT JOIN (SELECT chat_group_id chatGroupId, count(id) groupNum FROM chat_group_user
+  					GROUP BY chat_group_id) c ON i.id = c.chatGroupId
+  	WHERE u1.user_id = #{query.userId} AND i.type = 2 AND i.is_deleted = 0
+  		<if test="query.nameLike != null">
+  			AND (i.group_name like "%"#{query.nameLike}"%"
+  					OR i.id IN (SELECT distinct chat_group_id FROM chat_group_user cgu0
+	  							LEFT JOIN user_info ui0 ON cgu0.user_id = ui0.id
+	  							WHERE ui0.real_name like "%"#{query.nameLike}"%")
+  				)
+  		</if>
+  	ORDER BY i.id
+  </select>
+  
+  <select id="selectIfGroupExist" resultType="org.zxs.imp.task.dao.model.ChatGroupInfo">
+  	SELECT <include refid="Base_Column_List"></include>
+  	FROM chat_group_info i LEFT JOIN 
+	  	(SELECT i0.id, GROUP_CONCAT(u0.user_id ORDER BY u0.user_id) userNames
+	  	FROM chat_group_info i0 LEFT JOIN chat_group_user u0 ON i0.id = u0.chat_group_id
+	  	GROUP BY i0.id) u ON i.id = u.id
+	  	<if test="createId != null">
+			LEFT JOIN chat_group_user cgu ON i.id = cgu.chat_group_id AND cgu.role = 0
+		</if>
+	WHERE u.userNames = #{userListStr} AND i.is_deleted = 0
+		<if test="createId != null">
+			AND cgu.user_id = #{createId}
+		</if>
+  </select>
+  
+</mapper>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="gb2312"?>
+<EpointDataBody>
+	<DATA>
+		<ReturnInfo>
+			<Status>True</Status>
+			<Description>Success</Description>
+			<UserArea>
+				<Worklowinfo>
+					<ShouWengInfo>
+						<RowGuid>fcfb1ba3-2ccd-4f04-b7d8-a511a8f01b09</RowGuid>
+						<txtTitle><![CDATA[关于征求成立南宁市新江至崇左扶绥一级公路（南宁段）PPP项目工作组意见的函]]></txtTitle>
+						<jpdLaiWenDw>无</jpdLaiWenDw>
+						<jpdShouWenXl>南发改投资</jpdShouWenXl>
+						<jpdMiJi>无</jpdMiJi>
+						<txtShouWenDate></txtShouWenDate>
+						<txtFileDate>2018/9/30 12:00:00</txtFileDate>
+						<OldXianBanDate>2018/9/30 12:00:00</OldXianBanDate>
+						<ProcessVersionInstanceGuid>0e0b4195-859d-4c71-afdd-6b4de5964428
+						</ProcessVersionInstanceGuid>
+						<handelDateTimeMax>2018/10/7 21:50:35</handelDateTimeMax>
+					</ShouWengInfo>
+					<XGFaWenInfo>
+						<XGFaWenGuid></XGFaWenGuid>
+						<XGFaWenTite><![CDATA[]]>
+						</XGFaWenTite>
+						<XGFaWenStatus>归档</XGFaWenStatus>
+						<XGFaWenProcessor>李凡雷</XGFaWenProcessor>
+						<XGFaWenProcessTime></XGFaWenProcessTime>
+						<XGFaWenRemind>归档</XGFaWenRemind>
+					</XGFaWenInfo>
+					<MaterialList>
+						<MaterialInfo>
+							<MaterialInstanceGuid>9247b0d8-7c35-4cd1-823d-6ace239bea6a
+							</MaterialInstanceGuid>
+							<MaterialInstanceName><![CDATA[关于征求成立南宁市新江至崇左扶绥一级公路（南宁段）PPP项目工作组意见的函.pdf]]></MaterialInstanceName>
+							<MaterialType>NewAttach</MaterialType>
+							<isBigFile>0</isBigFile>
+							<DownLoadUrl>ReadFlowFile.aspx?AttachGuid=9247b0d8-7c35-4cd1-823d-6ace239bea6a
+							</DownLoadUrl>
+						</MaterialInfo>
+					</MaterialList>
+					<FlowInfoLst>
+						<FlowInfo>
+							<ActivityName>登记</ActivityName>
+							<TransactorName>李凡雷</TransactorName>
+							<TransactorMobile>17776699304</TransactorMobile>
+							<ReceiveDateTime>2018/9/29 15:33:31</ReceiveDateTime>
+							<HandleUserName>李凡雷</HandleUserName>
+							<WorkItemGuid>980c47c5-7bde-49d3-808b-9bb40cfa6999</WorkItemGuid>
+							<HandleUserMobile>17776699304</HandleUserMobile>
+							<OperationName>送下一步</OperationName>
+							<HandleDateTime>2018/9/29 15:40:23</HandleDateTime>
+							<Opinion>来文征求我委关于成立南宁市新江至崇左扶绥一级公路（南宁段）PPP项目工作组的意见，并按要求补充完善成员名单，填写附件2表格，于9月30日上午下班前反馈市交通局。拟请交通科牵头，投资科配合阅处。妥否，呈大州同志阅示。
+							</Opinion>
+							<handelDateTimeMax>2018/10/7 21:50:35</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>李凡雷</TransactorName>
+							<TransactorMobile>17776699304</TransactorMobile>
+							<ReceiveDateTime>2018/9/29 15:40:23</ReceiveDateTime>
+							<HandleUserName>贺大州</HandleUserName>
+							<WorkItemGuid>36060e97-0510-48e5-84af-d40ec879113d</WorkItemGuid>
+							<HandleUserMobile>18978989556</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/9/29 16:33:23</HandleDateTime>
+							<Opinion>如拟。</Opinion>
+							<handelDateTimeMax>2018/10/7 21:50:35</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>李凡雷</TransactorName>
+							<TransactorMobile>17776699304</TransactorMobile>
+							<ReceiveDateTime>2018/9/29 15:40:23</ReceiveDateTime>
+							<HandleUserName>李勇军</HandleUserName>
+							<WorkItemGuid>289b9907-9e62-4861-b7ce-4e9abc46d6d7</WorkItemGuid>
+							<HandleUserMobile>13669618100</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/10/7 21:50:35</HandleDateTime>
+							<Opinion>已阅，按照要求尽快办理。</Opinion>
+							<handelDateTimeMax>2018/10/7 21:50:35</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>李凡雷</TransactorName>
+							<TransactorMobile>17776699304</TransactorMobile>
+							<ReceiveDateTime>2018/9/29 15:40:23</ReceiveDateTime>
+							<HandleUserName>何莉环（负责工作）</HandleUserName>
+							<WorkItemGuid>fc1a8751-ff79-4e0d-bb9f-1fcace4a8582</WorkItemGuid>
+							<HandleUserMobile>15177156320</HandleUserMobile>
+							<OperationName>转交办理</OperationName>
+							<HandleDateTime>2018/9/30 10:24:27</HandleDateTime>
+							<Opinion>请PPP办配合提出意见。</Opinion>
+							<handelDateTimeMax>2018/10/7 21:50:35</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>何莉环（负责工作）</TransactorName>
+							<TransactorMobile>15177156320</TransactorMobile>
+							<ReceiveDateTime>2018/9/30 10:24:27</ReceiveDateTime>
+							<HandleUserName>陈斌</HandleUserName>
+							<WorkItemGuid>85fad167-860e-4b98-8907-4c8c4dcf40e6</WorkItemGuid>
+							<HandleUserMobile>18154598780</HandleUserMobile>
+							<OperationName>转交办理</OperationName>
+							<HandleDateTime>2018/9/30 11:17:53</HandleDateTime>
+							<Opinion>请苏荣祥配合</Opinion>
+							<handelDateTimeMax>2018/10/7 21:50:35</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>陈斌</TransactorName>
+							<TransactorMobile>18154598780</TransactorMobile>
+							<ReceiveDateTime>2018/9/30 11:17:53</ReceiveDateTime>
+							<HandleUserName>苏荣祥</HandleUserName>
+							<WorkItemGuid>7b3ac2b2-b743-4a62-a87a-b695e901fec7</WorkItemGuid>
+							<HandleUserMobile>18177116601</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/9/30 17:45:21</HandleDateTime>
+							<Opinion>意见已通过OA邮件反馈主办科室。</Opinion>
+							<handelDateTimeMax>2018/10/7 21:50:35</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>归档</ActivityName>
+							<TransactorName>李勇军</TransactorName>
+							<TransactorMobile>13669618100</TransactorMobile>
+							<ReceiveDateTime>2018/10/7 21:50:35</ReceiveDateTime>
+							<HandleUserName>李凡雷</HandleUserName>
+							<WorkItemGuid>d2c35d16-309a-46a9-98d2-39748c66db44</WorkItemGuid>
+							<HandleUserMobile>17776699304</HandleUserMobile>
+							<OperationName></OperationName>
+							<HandleDateTime></HandleDateTime>
+							<Opinion></Opinion>
+							<handelDateTimeMax>2018/10/7 21:50:35</handelDateTimeMax>
+						</FlowInfo>
+					</FlowInfoLst>
+				</Worklowinfo>
+			</UserArea>
+		</ReturnInfo>
+	</DATA>
+</EpointDataBody>

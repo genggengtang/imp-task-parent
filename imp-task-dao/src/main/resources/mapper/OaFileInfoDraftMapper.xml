@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.IOaFileInfoDraftMapper" >
+  <sql id="Base_Column_List" >
+    d.id, d.file_guid fileGuid, d.title, d.file_code fileCode, d.file_org fileOrg, 
+    d.file_date fileDate, d.receive_date receiveDate, d.approval, d.check_read checkRead, d.txt_file_date txtFileDate, d.old_xianban_date oldXianbanDate
+  </sql>
+  
+  <insert id="batchInsertOAFile" parameterType="list">
+   insert into oa_file_info_draft (id, file_type, file_guid, title, file_code, file_org, file_date, receive_date, last_at, txt_file_date, old_xianban_date)
+   values
+    <foreach collection ="list" item="item" index= "index" separator =",">
+	    <if test="item.processVersionInstanceGuid != null and item.txtTitle != null">
+	    	(
+	        0, #{item.fileType}, #{item.processVersionInstanceGuid}, #{item.txtTitle}, #{item.txtLaiWenHao}, #{item.txtLaiWenDept},
+	        #{item.tfDate},#{item.tswDate}, #{item.lstAt}, #{item.xbDate}, #{item.oxbDate}
+	        )
+	    </if>
+    </foreach >
+  </insert>
+  
+  <select id="selectNewOaFiles" resultType="org.zxs.imp.task.dao.model.OaFileInfoDraft">
+  	SELECT <include refid="Base_Column_List"/>
+  	FROM oa_file_info_draft d left join oa_file_info i ON d.file_guid = i.file_guid
+  	WHERE i.id is null
+  </select>
+  
+  <insert id="batchInsertNewCard">
+   INSERT INTO card_info
+		(id, card_type, card_guid, card_name, card_level, card_star, card_status, create_at, update_at, end_at)
+	SELECT 0, 101, file_guid, title, 2, 3, 0, now(), last_at, null
+	FROM oa_file_info_draft
+	WHERE not exists (select c.id from oa_file_info_draft d join card_info c ON c.card_guid = d.file_guid)
+  </insert>
+  
+  <update id="batchUpdateCard">
+  	UPDATE card_info c JOIN oa_file_info_draft d ON c.card_guid = d.file_guid
+  	SET c.update_at = d.last_at
+  	WHERE d.last_at > c.update_at
+  </update>
+</mapper>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="gb2312"?>
+<EpointDataBody>
+	<DATA>
+		<ReturnInfo>
+			<Status>True</Status>
+			<Description></Description>
+		</ReturnInfo>
+		<UserArea>
+			<PageInfo>
+				<TotalNumCount>35</TotalNumCount>
+				<TotalPageCount>1</TotalPageCount>
+			</PageInfo>
+			<HandleList>
+				<Handle>
+					<txtTitle><![CDATA[南宁市网络与信息安全信息通报]]></txtTitle>
+					<txtLaiWenHao>2018年第19期</txtLaiWenHao>
+					<txtLaiWenDept>市网安信息通报中心</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b5c54ba4-3adb-4f5c-a042-1f1537be8c44
+					</ProcessVersionInstanceGuid>
+					<isTodo>0</isTodo>
+					<xianbanDate></xianbanDate>
+					<OldXianBanDate></OldXianBanDate>
+					<handelDateTimeMax>2018/9/25 9:21:45</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于审定南宁市2018年中央预算内投资项目精细化管理工作方案的请示（批示件）]]></txtTitle>
+					<txtLaiWenHao>2018-2-A-263</txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/9/28 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>6dae5694-ef8a-4489-a1b5-eee583b9a52c
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/9/28 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/9/28 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/10/14 14:32:36</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于征求《〈中共南宁市委员会关于实施乡村振兴战略的决定〉任务分工方案》意见的函]]></txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>市委办公厅</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/9/26 18:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>f0f5789f-293b-4aed-ace5-6f996edd9167
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/9/26 18:00:00</xianbanDate>
+					<OldXianBanDate>2018/9/26 18:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/28 9:25:55</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[广西壮族自治区扶贫开发领导小组移民搬迁专责小组关于全区易地扶贫搬迁有关工作推进情况的通报]]></txtTitle>
+					<txtLaiWenHao>桂移民组发〔2018〕62号</txtLaiWenHao>
+					<txtLaiWenDept>自治区扶贫办移民搬迁专责小组</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/11 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>38753ca9-1307-4384-8715-886b12b88f7f
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/11 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/11 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/26 8:50:18</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[南宁市解决企业拖欠工资问题联席会议关于签订2018年度保障农民工工资支付工作责任书的通知]]></txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市解决企业拖欠工资问题联席会议</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/9/24 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>86e713ee-6629-4074-b064-41afac24b3c4
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/9/24 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/9/24 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/25 11:24:56</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[审计报告]]></txtTitle>
+					<txtLaiWenHao>南审电子报〔2018〕2号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市审计局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/12 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b8628a04-d0c8-4196-acb2-9c901130f5af
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/12 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/12 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/10/8 16:16:54</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[广西壮族自治区人民政府办公厅关于加强易地扶贫搬迁户在迁出地耕地林地管理利用工作的指导意见]]></txtTitle>
+					<txtLaiWenHao>桂政办发（2018）115号</txtLaiWenHao>
+					<txtLaiWenDept>自治区人民政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>8527081a-28b7-4e1a-91cc-c6fda86238a4
+					</ProcessVersionInstanceGuid>
+					<isTodo>0</isTodo>
+					<xianbanDate></xianbanDate>
+					<OldXianBanDate></OldXianBanDate>
+					<handelDateTimeMax>2018/10/8 10:49:43</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[中共南宁市委办公厅 南宁市人民政府办公厅关于印发《南宁市创建“十镇特色、百村示范、千屯升级、万屯整治”工程助推乡村振兴实施方案》的通知]]></txtTitle>
+					<txtLaiWenHao>南办发〔2018〕88号</txtLaiWenHao>
+					<txtLaiWenDept>市委办公厅、市政府办公厅</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/11 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>10be1b87-f35a-4690-b2aa-c74834ccacf1
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/11 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/11 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/10/10 10:40:54</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[广西壮族自治区人民政府办公厅关于成立广西政府债券发行和使用领导小组的通知]]></txtTitle>
+					<txtLaiWenHao>桂政办发（2018）116号</txtLaiWenHao>
+					<txtLaiWenDept>自治区人民政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>c5f37edc-c5ff-4d4e-8e79-e43afe50c2bb
+					</ProcessVersionInstanceGuid>
+					<isTodo>0</isTodo>
+					<xianbanDate></xianbanDate>
+					<OldXianBanDate></OldXianBanDate>
+					<handelDateTimeMax>2018/9/25 15:41:28</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[广西壮族自治区人民政府关于公布第二十一批广西“十百千”人才工程第二层次人选名单的通知]]></txtTitle>
+					<txtLaiWenHao>桂政发（2018）43号</txtLaiWenHao>
+					<txtLaiWenDept>自治区政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b76387b3-a44e-442e-bc38-067da6c86cca
+					</ProcessVersionInstanceGuid>
+					<isTodo>0</isTodo>
+					<xianbanDate></xianbanDate>
+					<OldXianBanDate></OldXianBanDate>
+					<handelDateTimeMax>2018/10/9 9:03:48</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[广西亿程科技有限公司关于给予国家鼓励类产业认定的申请报告]]></txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/11 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>cb0a92b1-5613-4897-8da1-6348c981d97e
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/11 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/11 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/25 16:54:22</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[中共南宁市委网信办关于办理人民网《地方领导留言板》网友留言回复工作的通知]]></txtTitle>
+					<txtLaiWenHao>南网字〔2018〕28号</txtLaiWenHao>
+					<txtLaiWenDept>市委网信办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/10 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e3f609d6-c596-4850-bbdf-91538d1af4b6
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/10 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/10 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/10/10 10:09:19</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[中共南宁市委员会全面深化改革领导小组会议纪要]]></txtTitle>
+					<txtLaiWenHao>十二届第8号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>4955c226-9b36-4c46-bc35-a6016b522ba4
+					</ProcessVersionInstanceGuid>
+					<isTodo>0</isTodo>
+					<xianbanDate></xianbanDate>
+					<OldXianBanDate></OldXianBanDate>
+					<handelDateTimeMax>2018/9/30 10:53:53</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于分类处理推进南宁市黑臭水体治理PPP项目的请示（批示件）]]></txtTitle>
+					<txtLaiWenHao>2018-4-A-763</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/1 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>8e63d078-cd45-47c8-9c7b-d0ef509621b0
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/1 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/1 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/30 9:56:10</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[南宁市网络与信息安全信息通报]]></txtTitle>
+					<txtLaiWenHao>2018年第18期</txtLaiWenHao>
+					<txtLaiWenDept>市网安通报中心</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>3c6e5c45-72e4-43aa-8a70-9cc9d2f179b5
+					</ProcessVersionInstanceGuid>
+					<isTodo>0</isTodo>
+					<xianbanDate></xianbanDate>
+					<OldXianBanDate></OldXianBanDate>
+					<handelDateTimeMax>2018/9/25 8:31:08</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于印发《南宁市服务自治区成立60周年庆祝活动“百日攻坚战”工作方案》的通知]]></txtTitle>
+					<txtLaiWenHao>南服区庆领办发〔2018〕25号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市服务自治区成立60周年庆祝活动工作领导小组办公室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/12 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>64bb454e-6c95-4a51-ae94-59469fe365d0
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/12 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/12 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/10/10 8:35:04</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[南宁市人力资源和社会保障局关于取消开展“充分就业城市”、“全民创业城市”专项创建工作的函]]></txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市人力资源和社会保障局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/12 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>2f62a6a3-31b5-4296-9287-ada715e492b8
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/12 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/12 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/26 16:11:27</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于认定南宁市“美丽南宁·宜居乡村”活动各类示范县区（片区）、乡镇、村屯的通知]]></txtTitle>
+					<txtLaiWenHao>南乡村办发〔2018〕46号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市“美丽南宁”乡村建设领导小组办公室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/12 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>840aed59-76c1-4e20-91f3-0f17063b1a41
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/12 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/12 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/21 15:22:49</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于提请“信用中国”网站对已公示有关北京城建道桥建设集团有限公司行政处罚信息进行信用修复的函]]></txtTitle>
+					<txtLaiWenHao>南环函〔2018〕898号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市环境保护局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/12 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>85da9984-2c7f-40f8-b9f2-f8548fcfbfc7
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/12 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/12 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/26 9:56:20</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于三起扶贫领域典型案例的通报]]></txtTitle>
+					<txtLaiWenHao>南纪通〔2018〕16号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市纪律检查委员会</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>e4ec3ad1-3b5d-4215-9322-efd3cdb1fce7
+					</ProcessVersionInstanceGuid>
+					<isTodo>0</isTodo>
+					<xianbanDate></xianbanDate>
+					<OldXianBanDate></OldXianBanDate>
+					<handelDateTimeMax>2018/10/15 8:01:20</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于提请“信用中国”网站对已公示有关广西吉安建设工程有限公司南宁第六分公司行政处罚信息进行信用修复的函]]></txtTitle>
+					<txtLaiWenHao>南环函〔2018〕899号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市环境保护局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/12 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>0691dd37-7c11-460f-95bf-0d431d77409c
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/12 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/12 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/26 9:56:12</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于调整南宁市城市轨道交通建设指挥部办公室成员的通知]]></txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市城市轨道交通建设指挥部</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/12 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>aac17235-bb2c-43b9-a098-972a56189973
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/12 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/12 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/21 13:42:49</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于审定南宁市参加广西左右江革命老区专题招商推介活动工作方案的请示（批示件）]]></txtTitle>
+					<txtLaiWenHao>2018-2-A-275</txtLaiWenHao>
+					<txtLaiWenDept>市政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/9/27 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>ee2712ee-0fca-4f3d-bcec-a65dcb7033aa
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/9/27 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/9/27 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/10/8 10:12:26</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于申请使用南宁市网站集约化共享平台的函]]></txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept>南宁市武鸣区人民政府</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/12 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>8e1c7002-84e9-485e-a9ce-726b46638c35
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/12 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/12 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/21 15:07:02</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[政府信息公开申请表（郭仁康）]]></txtTitle>
+					<txtLaiWenHao></txtLaiWenHao>
+					<txtLaiWenDept></txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/17 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1daa556c-b1ec-418e-b37a-4efdcb408881
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/17 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/17 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/10/12 16:09:55</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于配合做好党政领导干部安全生产责任制课题调研的函]]></txtTitle>
+					<txtLaiWenHao>南安委办函〔2018〕61号</txtLaiWenHao>
+					<txtLaiWenDept>南宁市安全生产委员会办公室</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/9/29 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>c197fd64-2e55-4451-a2c7-2c3be643c3b8
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/9/29 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/9/29 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/26 9:17:00</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[通知（填写《扶贫领域问题整改情况统计表》）]]></txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市纪委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/9/21 16:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>293472f9-1143-4c4e-93dd-c9982cba110e
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/9/21 16:00:00</xianbanDate>
+					<OldXianBanDate>2018/9/21 16:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/25 9:31:35</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[广西壮族自治区应对气候变化及节能减排工作领导小组办公室关于印发2018年1－8月能耗总量和强度“双控”目标完成情况“晴雨表”的通知]]></txtTitle>
+					<txtLaiWenHao>桂发改环资〔2018〕1101 号</txtLaiWenHao>
+					<txtLaiWenDept>自治区发改委</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/10 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>b98d485c-f781-4b45-b0b4-3c0485dcc3fe
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/10 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/10 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/9/26 16:34:45</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于对《<南宁市相对集中行政许可权改革试点阶段性评估报告>反映的问题清单》征求意见的通知]]></txtTitle>
+					<txtLaiWenHao>南改办通〔2018〕47号</txtLaiWenHao>
+					<txtLaiWenDept>市委改革办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/9/25 12:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>8299ddde-9f25-46ba-964c-93733093a0c6
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/9/25 12:00:00</xianbanDate>
+					<OldXianBanDate>2018/9/25 12:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/10/11 16:29:27</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于转发《解决企业工资拖欠问题部际联席会议关于印发2018年度保障农民工工资支付工作考核细则的通知》的通知]]></txtTitle>
+					<txtLaiWenHao>无</txtLaiWenHao>
+					<txtLaiWenDept>市人社局</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate>2018/10/1 0:00:00</txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>96f0247c-b869-4b1e-82eb-5a7ce5d2e406
+					</ProcessVersionInstanceGuid>
+					<isTodo>1</isTodo>
+					<xianbanDate>2018/10/1 0:00:00</xianbanDate>
+					<OldXianBanDate>2018/10/1 0:00:00</OldXianBanDate>
+					<handelDateTimeMax>2018/10/8 10:23:40</handelDateTimeMax>
+				</Handle>
+				<Handle>
+					<txtTitle><![CDATA[关于认定南宁市“美丽南宁·宜居乡村”活动各类示范县区（片区）、乡镇、村屯的通知]]></txtTitle>
+					<txtLaiWenHao>南乡村办发〔2018〕46号</txtLaiWenHao>
+					<txtLaiWenDept>市美丽办</txtLaiWenDept>
+					<jpdMiJi>无</jpdMiJi>
+					<txtFileDate></txtFileDate>
+					<txtShouWenDate>2018/9/21 0:00:00</txtShouWenDate>
+					<ProcessVersionInstanceGuid>1d30e4ed-288e-4bdc-80af-ed3f0fc01f02
+					</ProcessVersionInstanceGuid>
+					<isTodo>0</isTodo>
+					<xianbanDate></xianbanDate>
+					<OldXianBanDate></OldXianBanDate>
+					<handelDateTimeMax>2018/9/26 15:18:01</handelDateTimeMax>
+				</Handle>
+			</HandleList>
+		</UserArea>
+	</DATA>
+</EpointDataBody>

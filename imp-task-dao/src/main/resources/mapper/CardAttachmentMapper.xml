@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.ICardAttachmentMapper" >
+  
+  <insert id="insertOrUpdateAttachment">
+  	insert into card_attachment (id, card_id, oa_guid, name, oa_type, url)
+	values 
+	<foreach collection="attachList" item="item" index= "index" separator =",">
+		(0, #{cardId}, #{item.oaGuid}, #{item.name}, #{item.oaType}, CONCAT('http://202.103.199.209:8091/EpointOAWebservice_JXHDJ/', #{item.url}))
+	</foreach>
+	on duplicate key update
+		name = values(name),
+		oa_type = values(oa_type),
+		url = values(url)
+  </insert>
+  
+</mapper>

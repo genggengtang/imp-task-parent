@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.IUserDeptMapper" >
+  
+  <sql id="Base_Column_List" >
+    id, user_id, dept_id, role, create_at
+  </sql>
+  
+  <select id="selectDeptListByUser" parameterType="int" resultType="int">
+  	SELECT distinct dept_id from user_dept WHERE user_id = #{userId}
+  </select>
+  
+  <select id="selectIdByUserId" parameterType="int" resultType="int">
+  	SELECT id FROM user_dept 
+  	WHERE user_id = #{userId}
+  	ORDER BY id
+  	LIMIT 1
+  </select>
+  
+  <select id="selectUserOptsByDept" parameterType="int" resultType="org.zxs.imp.task.dao.model.vo.output.OptionsOut">
+  	SELECT ud.id optValue, ui.real_name optText, ud.remark
+  	FROM (SELECT id FROM dept_info WHERE id = #{deptId} OR parent_id = #{deptId}) di
+  		LEFT JOIN user_dept ud ON di.id = ud.dept_id
+  		LEFT JOIN user_info ui ON ud.user_id = ui.id
+  	WHERE ui.status = 1 AND ud.role > 1
+  	ORDER BY ui.order_by
+  </select>
+</mapper>

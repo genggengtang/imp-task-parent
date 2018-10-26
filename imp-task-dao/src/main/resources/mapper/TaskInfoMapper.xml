@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.ITaskInfoMapper" >
+  
+  <sql id="Base_Column_List" >
+    id, task_type, title, task_label, is_period, period_type, period_days, urgent_level, 
+    create_user_id, end_date_des, current_sub_id, oa_id, create_at, update_at
+  </sql>
+  
+  <sql id="Base_View_List">
+    v.id, v.taskType, v.title, v.taskLabel, v.taskLabels, v.isPeriod, v.periodType, 
+	v.periodDays, v.urgentLevel, v.createUserId, v.endDateDes, v.currentSubId, 
+	v.kpiTarget, v.kpiPoint, v.kpi1stId, v.kpi2ndId, v.kpi3rdId, v.kpi1stName, v.kpi2ndName, v.kpi3rdName,
+	v.oaId, v.createAt, v.updateAt, v.alertDate, v.endDate, v.status, v.statusDis, v.finishDate,
+	v.draftComment, v.finalComment, v.prcComment, v.subCreateAt, v.subUpdateAt, v.dayRest,
+	v.taskDepts, v.aheadDepts, v.parternDepts
+  </sql>
+  
+  <select id="selectTaskList" parameterType="org.zxs.imp.task.dao.model.vo.query.TaskQuery"
+  		resultType="org.zxs.imp.task.dao.model.vo.output.TaskInfoPageOut">
+  	SELECT <include refid="Base_View_List"/>, f.id favoriteId, GROUP_CONCAT(distinct l.label_content) customLabels
+  	FROM task_view v LEFT JOIN favorite_task f ON v.id = f.task_id AND f.user_id = #{query.userId}
+  	LEFT JOIN task_label tl ON v.id = tl.task_id
+  	LEFT JOIN label_info l ON tl.label_id = l.id and l.create_id = #{query.userId}
+  	<if test="query.userDeptList != null">
+  		LEFT JOIN task_taker t ON v.currentSubId = t.sub_task_id
+  	</if>
+  	<where>
+  		<if test="query.type != null">
+	  		v.taskType = #{query.type}
+	  	</if>
+	  	<if test="query.userDeptList != null and query.userDeptList.size() > 0">
+	  		AND t.dept_id IN 
+	  		<foreach item="item" collection="query.userDeptList" separator="," open="(" close=")">
+				#{item}
+			</foreach>
+	  	</if>
+	  	<if test="query.startDateStr != null">
+	  		AND DATE_FORMAT(v.createAt,"%Y-%m-%d") >= STR_TO_DATE(#{query.startDateStr},"%Y-%m-%d")
+	  	</if>
+	  	<if test="query.endDateStr != null">
+	  		AND DATE_FORMAT(v.createAt,"%Y-%m-%d") <![CDATA[<=]]> STR_TO_DATE(#{query.endDateStr},"%Y-%m-%d")
+	  	</if>
+	  	<if test="query.status != null">
+	  		AND v.status = #{query.status}
+	  	</if>
+	  	<if test="query.labelArray != null and query.labelArray.size() > 0">
+	  		AND
+	  		<foreach item="item" collection="query.labelArray" separator=" or " open="(" close=")">
+				find_in_set(#{item}, v.taskLabel)
+			</foreach>
+	  	</if>
+	  	<if test="query.deptArray != null and query.deptArray.size() > 0">
+	  		AND
+	  		<foreach item="item" collection="query.deptArray" separator=" or " open="(" close=")">
+				find_in_set(#{item}, v.taskDepts)
+			</foreach>
+	  	</if>
+	  	<if test="query.statusArray != null and query.statusArray.size() > 0">
+	  		AND v.status in 
+	  		<foreach item="item" collection="query.statusArray" separator="," open="(" close=")">
+				#{item}
+			</foreach>
+	  	</if>
+	  	<if test="query.isFavorite == 1">
+	  		AND f.user_id = #{query.userId}
+	  	</if>
+	  	<if test="query.keyword != null and query.keyword != ''">
+	  		AND (v.title like "%"#{query.keyword}"%" OR v.aheadDepts like "%"#{query.keyword}"%" 
+	  			OR v.parternDepts like "%"#{query.keyword}"%")
+	  	</if>
+  	</where>
+  	ORDER BY v.dayRest, v.id
+  </select>
+  
+  <select id="selectTaskDetail" parameterType="long" resultType="org.zxs.imp.task.dao.model.vo.output.TaskDetailOut">
+  	SELECT <include refid="Base_View_List"/>
+  	FROM task_view v
+  	WHERE v.id = #{id}
+  </select>
+  
+  <select id="selectStaticsByTypeAndYear" resultType="org.zxs.imp.task.dao.model.TaskStaticsView">
+  	SELECT stsType, stsName, stsNum FROM task_statics_view
+  	WHERE stsType = #{type}
+  	<choose>
+  		<when test="year != null">
+  			AND (stsYear = #{year} OR stsNum = 0)
+  		</when>
+  		<otherwise>
+  			AND (stsYear = (select max(stsYear) from task_statics_view) OR stsNum = 0)
+  		</otherwise>
+  	</choose>
+  	ORDER BY stsOrder
+  </select>
+  
+  <select id="selectStaticsCountByTypeAndYear" resultType="int">
+  	SELECT sum(stsNum) FROM task_statics_view
+  	WHERE stsType = #{type}
+  	<choose>
+  		<when test="year != null">
+  			AND (stsYear = #{year} OR stsNum = 0)
+  		</when>
+  		<otherwise>
+  			AND (stsYear = (select max(stsYear) from task_statics_view) OR stsNum = 0)
+  		</otherwise>
+  	</choose>
+  </select>
+  
+  <select id="selectDeptRoleStaticsByYear" resultType="org.zxs.imp.task.dao.model.TaskStaticsView">
+  	SELECT 1050 stsType, d.value_remark stsName, count(t.id) stsNum
+	FROM dic_info d LEFT JOIN task_taker t ON d.id = t.dept_role AND t.dept_id = #{deptId}
+	LEFT JOIN sub_task s on t.dept_role = s.id
+	LEFT JOIN task_info i on s.task_id = i.id
+	<choose>
+  		<when test="year != null">
+  			AND (year(i.create_at) = #{year} OR year(i.create_at) is null)
+  		</when>
+  		<otherwise>
+  			AND (year(i.create_at) = (select max(i.create_at) from task_info) OR year(i.create_at) is null)
+  		</otherwise>
+  	</choose>
+	WHERE d.type = 105 and d.id != 10503
+	GROUP BY d.id
+	ORDER BY d.id
+  </select>
+  
+  <select id="selectDeptTypeStaticsByYear" resultType="org.zxs.imp.task.dao.model.TaskStaticsView">
+  	SELECT 1051 stsType, d.value_remark stsName, count(t.id) stsNum
+  	FROM dic_info d LEFT JOIN task_info i ON d.id = i.task_type
+	  	<choose>
+	  		<when test="year != null">
+	  			AND (year(i.create_at) = #{year} OR year(i.create_at) is null)
+	  		</when>
+	  		<otherwise>
+	  			AND (year(i.create_at) = (select max(i.create_at) from task_info) OR year(i.create_at) is null)
+	  		</otherwise>
+	  	</choose>
+		LEFT JOIN sub_task s ON i.id = s.task_id
+		LEFT JOIN task_taker t ON s.id = t.sub_task_id and t.dept_id = #{deptId} and t.dept_role != 10503
+  	WHERE d.type = 100
+  	GROUP BY d.id
+	ORDER BY d.id
+  </select>
+  
+  <select id="selectDeptStaticsCountByYear" resultType="int">
+  	SELECT count(t.id) stsNum
+  	FROM task_taker t LEFT JOIN sub_task s ON t.sub_task_id = s.id and t.dept_role != 10503
+	LEFT JOIN task_info i ON s.task_id = i.id
+	  	<choose>
+	  		<when test="year != null">
+	  			AND (year(i.create_at) = #{year} OR year(i.create_at) is null)
+	  		</when>
+	  		<otherwise>
+	  			AND (year(i.create_at) = (select max(i.create_at) from task_info) OR year(i.create_at) is null)
+	  		</otherwise>
+	  	</choose>
+	WHERE t.dept_id = #{deptId}
+  </select>
+  
+  <insert id="insertFromOa">
+  	INSERT INTO task_info
+		(id, task_type, title, doc_no, is_period, urgent_level, end_date_des, current_sub_id, oa_guid, create_at, update_at)
+	SELECT 0, 101, title, file_code,  0, if(txt_file_date is null, null, DATE_FORMAT(txt_file_date, '%Y-%m-%d %T'))
+	FROM oa_file_info_draft
+	WHERE not exists (select i.id from oa_file_info i left join oa_file_info_draft d ON i.file_guid = d.file_guid)
+  </insert>
+</mapper>

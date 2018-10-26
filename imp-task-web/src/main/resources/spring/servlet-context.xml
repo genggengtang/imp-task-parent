@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:p="http://www.springframework.org/schema/p"
+	   xmlns:cache="http://www.springframework.org/schema/cache"
+	   xmlns:aop="http://www.springframework.org/schema/aop"
+	   xmlns:task="http://www.springframework.org/schema/task"
+	   xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+		http://www.springframework.org/schema/cache
+        http://www.springframework.org/schema/cache/spring-cache.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+        http://www.springframework.org/schema/task  
+		http://www.springframework.org/schema/task/spring-task-3.1.xsd">
+		
+	<mvc:annotation-driven >
+		<mvc:message-converters>  
+            <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">  
+                <property name="objectMapper">  
+                    <bean class="com.fasterxml.jackson.databind.ObjectMapper">  
+                        <property name="dateFormat">  
+                            <bean class="java.text.SimpleDateFormat">  
+                                <constructor-arg type="java.lang.String" value="yyyy-MM-dd HH:mm:ss" />  
+                            </bean>  
+                        </property>  
+                    </bean>  
+                </property>  
+            </bean>  
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <constructor-arg value="UTF-8" />
+                <property name="supportedMediaTypes">
+                    <list>
+                        <bean class="org.springframework.http.MediaType">
+                            <constructor-arg index="0" value="text" />
+                            <constructor-arg index="1" value="plain" />
+                            <constructor-arg index="2" value="UTF-8" />
+                        </bean>
+                        <bean class="org.springframework.http.MediaType">
+                            <constructor-arg index="0" value="*" />
+                            <constructor-arg index="1" value="*" />
+                            <constructor-arg index="2" value="UTF-8" />
+                        </bean>
+                    </list>
+                </property>
+             </bean>
+        </mvc:message-converters> 
+	</mvc:annotation-driven>
+	
+	<!-- 静态资源访问  --> 
+	 <mvc:resources location="/css/" mapping="/css/**"/>
+	 <mvc:resources location="/tmpl/" mapping="/tmpl/**"/>
+	 <mvc:resources location="/js/" mapping="/js/**"/> 
+	 <mvc:resources location="/html/" mapping="/html/**"/>
+	 <mvc:resources location="/admin/" mapping="/admin/**"/>
+	 <mvc:resources location="/layui/" mapping="/layui/**"/>
+	 <mvc:resources location="/page/" mapping="/page/**"/>
+	 <mvc:resources location="/images/" mapping="/images/**"/>
+	 <mvc:resources location="/font/" mapping="/font/**"/>
+	 <mvc:resources location="/json/" mapping="/json/**"/>
+	 
+	 <aop:aspectj-autoproxy proxy-target-class="true"/>
+	 
+	 <!-- 拦截器 -->
+	 <mvc:interceptors>
+	 	<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"/>
+	    <mvc:interceptor>
+	        <mvc:mapping path="/**"/>
+	        <bean class="org.zxs.imp.task.controller.interceptor.AuthorizationInterceptor"/>
+	    </mvc:interceptor>
+	    <!-- <mvc:interceptor>
+	        <mvc:mapping path="/**"/>
+	        <bean class="org.zxs.imp.task.controller.interceptor.TraceInterceptor"/>
+	    </mvc:interceptor> -->
+	    <!-- <mvc:interceptor> 
+       <mvc:mapping path="/admin/auth/**"/>    
+	        登录拦截类  
+	        <bean id="loginInterceptor" class="org.zxs.base.filter.SessionTimeoutInterceptor">
+	        	<constructor-arg name="sessionName" value="admin"/>  
+			    <constructor-arg name="allowUrls">  
+			        <list>  
+			            <value>soldier</value>  
+			            <value>scientist</value>  
+			            <value>pilot</value>  
+			        </list>  
+			    </constructor-arg>
+	        </bean>  
+	     </mvc:interceptor> -->
+	</mvc:interceptors>
+	
+	<bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">    
+     <property name="exceptionMappings">    
+       <props>
+       	 <prop key="org.zxs.base.filter.SessionTimeoutException">redirect:../login.html</prop>  
+       </props>    
+     </property>    
+   </bean>
+	
+	
+    <!-- 支持上传文件 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" p:defaultEncoding="UTF-8"/>
+	
+	<context:annotation-config/>
+	<context:component-scan base-package="org.zxs.imp.task" >
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service" />
+	</context:component-scan>
+	
+	<import resource="classpath*:spring/*application.xml"/>
+	
+	<mvc:resources location="classpath:/META-INF/resources/" mapping="swagger-ui.html"/>
+	<mvc:resources location="classpath:/META-INF/resources/webjars/" mapping="/webjars/**"/>
+	<mvc:resources mapping="/dist/**" location="/dist/" cache-period="31556926" />
+    
+    <!-- redis -->
+    <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">  
+        <property name="maxIdle" value="100" />  
+        <property name="maxTotal" value="200" />  
+        <property name="maxWaitMillis" value="100" />  
+        <property name="testOnBorrow" value="true" />  
+    </bean>
+    
+    <bean id="connectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"  
+        p:host-name="${redis.host}" p:port="${redis.port}" p:password="${redis.password}"  p:pool-config-ref="poolConfig"/>  
+    
+    <bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">  
+        <!-- 注入连接工厂 -->  
+        <property name="connectionFactory" ref="connectionFactory" />  
+    </bean>  
+    
+    <bean id="socketioConf" class="com.corundumstudio.socketio.Configuration">
+		<property name="hostname" value="${socketio.hostname}"/>
+		<property name="port" value="${socketio.port}"/>
+	</bean>
+	
+	<bean id="socketioServer" class="com.corundumstudio.socketio.SocketIOServer">
+		<constructor-arg ref="socketioConf"/>
+	</bean>
+	
+	<task:executor id="executor" pool-size="1" />  
+    <task:scheduler id="scheduler" pool-size="1" />  
+    <!-- 启用annotation方式 -->  
+    <task:annotation-driven scheduler="scheduler"  
+        executor="executor" proxy-target-class="true" />
+        
+    <!-- <task:scheduled-tasks>  
+        <task:scheduled ref="oaFileProcessor" method="updateOaFilesByDay" cron="0 2/5 1-23 * * ?"/>
+        <task:scheduled ref="oaFileProcessor" method="updateOaFilesByMonth" cron="0 15 0 * * ?"/>  
+    </task:scheduled-tasks>  -->
+</beans>

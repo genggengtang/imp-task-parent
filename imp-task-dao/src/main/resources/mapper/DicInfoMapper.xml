@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.IDicInfoMapper">
+
+	<sql id="Base_Column_List">
+		id, type, type_remark, value_remark
+	</sql>
+
+	<select id="selectOptionsByType" resultType="org.zxs.imp.task.dao.model.vo.output.OptionsOut">
+		SELECT value_remark optText, id optValue
+		<if test="remark != null">, #{remark} remark</if>
+		FROM dic_info
+		WHERE type = #{type}
+	</select>
+
+</mapper>

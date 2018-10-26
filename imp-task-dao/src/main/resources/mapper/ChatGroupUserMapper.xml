@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.IChatGroupUserMapper" >
+  
+  <sql id="Base_Column_List" >
+    id, chat_group_id, user_id, nickname, role, removeable, create_at
+  </sql>
+  
+  <select id="selectUserIdByCgId" resultType="int">
+  	SELECT user_id FROM chat_group_user
+  	WHERE chat_group_id = #{cgId}
+        <if test="selfId != null">
+        	and user_id != #{selfId}
+        </if>
+  </select>
+  
+</mapper>

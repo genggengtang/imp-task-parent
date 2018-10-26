@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.IDeptInfoMapper" >
+  <sql id="Base_Column_List" >
+    id, parent_id, full_name, short_name, level, order_by, status, create_at
+  </sql>
+  
+  <select id="selectDeptOptions" resultType="org.zxs.imp.task.dao.model.vo.output.OptionsOut">
+  	SELECT id optValue, short_name optText, 3 remark
+  	FROM dept_info
+  	WHERE level = 3 AND status = 1
+  	ORDER BY order_by
+  </select>
+  
+  <select id="selectDeptOptionsByUser" parameterType="int" resultType="org.zxs.imp.task.dao.model.vo.output.OptionsOut">
+  	SELECT d.id optValue, d.short_name optText
+  	FROM dept_info d JOIN user_dept u ON d.id = u.dept_id
+  	WHERE u.user_id = #{userId} AND d.level = 3 AND d.status = 1
+  	ORDER BY d.order_by
+  </select>
+</mapper>

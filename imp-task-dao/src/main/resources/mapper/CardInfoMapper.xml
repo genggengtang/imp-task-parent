@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.ICardInfoMapper" >
+ 
+  <sql id="Base_Column_List" >
+    id, card_type, card_name, card_level, card_status, create_at, end_at
+  </sql>
+  
+  <sql id="Simple_List" >
+    v.id, v.cardType, v.cardName, v.cardLevel, v.cardStar, v.cardContent, v.cardStatus,  
+	v.endDate, v.createDate, 
+	if(v.endDate is null, null, (to_days(v.endDate) - to_days(now()))) dayRest
+  </sql>
+  
+  <insert id="insertFromOaDraft">
+  	INSERT INTO oa_file_info
+		(id, card_type, card_name, card_level, card_status, create_at, end_at)
+	SELECT 0, 101, title, 3, 0, receive_date, null
+	FROM oa_file_info_draft
+	WHERE not exists (select i.id from oa_file_info i left join oa_file_info_draft d ON i.file_guid = d.file_guid)
+  </insert>
+  
+  <select id="selectCardTaskList" parameterType="org.zxs.imp.task.dao.model.vo.query.CardTaskQuery"
+  	resultType="org.zxs.imp.task.dao.model.vo.output.CardTaskPageOut">
+  	SELECT v.id, v.cardType, v.cardName, v.cardLevel, v.cardStar, v.cardContent, v.cardStatus, v.proveStatus, 
+  		v.creatorName, v.creatorDeptName, v.endName, v.endDeptName, v.isPublic, v.place, v.accurDate,
+  		v.createAt, v.updateAt, v.endAt, v.endDate, v.createDate, f.id favoriteId,
+  		v.pubLabels, v.pubLabelIds, v.aheadDeptIds, v.aheadDepts, v.parternDeptIds, v.parternDepts,
+  		if(v.endDate is null, null, (to_days(v.endDate) - to_days(now()))) dayRest     
+  	FROM card_task_view v LEFT JOIN favorite_card f ON v.id = f.card_id AND f.user_id = #{query.userId}
+  	WHERE
+  		v.isDelete = 0
+  		<if test="query.cardType != null">AND v.cardType = #{query.cardType}</if>
+  		<if test="query.isPublic != null">AND v.isPublic = #{query.isPublic}</if>
+  		<if test="query.cardLevel != null">AND v.cardLevel = #{query.cardLevel}</if>
+  		<if test="query.isFavorite == 1">AND f.user_id = #{query.userId}</if>
+  		<if test="query.keyword != null and query.keyword != ''">
+  			AND (v.cardName LIKE "%"#{query.keyword}"%" OR v.aheadDepts LIKE "%"#{query.keyword}"%" 
+	  		OR v.parternDepts LIKE "%"#{query.keyword}"%")
+	  	</if>
+  		<if test="query.startDateStr != null and query.startDateStr != ''">
+	  		AND DATE_FORMAT(v.createDate,"%Y-%m-%d") >= STR_TO_DATE(#{query.startDateStr},"%Y-%m-%d")
+	  	</if>
+	  	<if test="query.endDateStr != null and query.endDateStr != ''">
+	  		AND DATE_FORMAT(v.createDate,"%Y-%m-%d") <![CDATA[<=]]> STR_TO_DATE(#{query.endDateStr},"%Y-%m-%d")
+	  	</if>
+	  	<if test="query.statusArray != null and query.statusArray.size() > 0">
+	  		AND v.cardStatus in 
+	  		<foreach item="item" collection="query.statusArray" separator="," open="(" close=")">
+				#{item}
+			</foreach>
+	  	</if>
+	  	<if test="query.deptArray != null and query.deptArray.size() > 0">
+	  		AND
+	  		<foreach item="item" collection="query.deptArray" separator=" or " open="(" close=")">
+				find_in_set(#{item}, v.aheadDeptIds) OR find_in_set(#{item}, v.parternDeptIds)
+			</foreach>
+	  	</if>
+	  	<if test="query.labelArray != null and query.labelArray.size() > 0">
+	  		AND
+	  		<foreach item="item" collection="query.labelArray" separator=" or " open="(" close=")">
+				find_in_set(#{item}, v.pubLabelIds)
+			</foreach>
+	  	</if>
+  	ORDER BY v.cardStar desc, v.updateAt desc
+  </select>
+  
+  <select id="selectDetailByIdAndUser" resultType="org.zxs.imp.task.dao.model.vo.output.CardSimpleOut">
+  	SELECT v.id, v.cardType, v.cardName, v.cardLevel, v.cardStar, v.cardContent, v.cardStatus, v.endAt, v.endDate, v.createDate, f.id favoriteId,
+  		if(v.endDate is null, null, (to_days(v.endDate) - to_days(now()))) dayRest     
+  	FROM card_task_view v LEFT JOIN favorite_card f ON v.id = f.card_id AND f.user_id = #{query.userId}
+  </select>
+  
+  <select id="selectCountByCardLevel" resultType="long">
+  	SELECT count(v.id) FROM card_task_view v
+  	WHERE v.cardLevel = #{cLevel} AND v.isDelete = 0
+  		<if test="query.cardType != null">AND v.cardType = #{query.cardType}</if>
+  		<if test="query.keyword != null and query.keyword != ''">
+  			AND (v.cardName LIKE "%"#{query.keyword}"%" OR v.aheadDepts LIKE "%"#{query.keyword}"%" 
+	  		OR v.parternDepts LIKE "%"#{query.keyword}"%")
+	  	</if>
+  		<if test="query.startDateStr != null and query.startDateStr != ''">
+	  		AND DATE_FORMAT(v.createDate,"%Y-%m-%d") >= STR_TO_DATE(#{query.startDateStr},"%Y-%m-%d")
+	  	</if>
+	  	<if test="query.endDateStr != null and query.endDateStr != ''">
+	  		AND DATE_FORMAT(v.createDate,"%Y-%m-%d") <![CDATA[<=]]> STR_TO_DATE(#{query.endDateStr},"%Y-%m-%d")
+	  	</if>
+	  	<if test="query.statusArray != null and query.statusArray.size() > 0">
+	  		AND v.cardStatus in 
+	  		<foreach item="item" collection="query.statusArray" separator="," open="(" close=")">
+				#{item}
+			</foreach>
+	  	</if>
+	  	<if test="query.deptArray != null and query.deptArray.size() > 0">
+	  		AND
+	  		<foreach item="item" collection="query.deptArray" separator=" or " open="(" close=")">
+				find_in_set(#{item}, v.aheadDeptIds) OR find_in_set(#{item}, v.parternDeptIds)
+			</foreach>
+	  	</if>
+	  	<if test="query.labelArray != null and query.labelArray.size() > 0">
+	  		AND
+	  		<foreach item="item" collection="query.labelArray" separator=" or " open="(" close=")">
+				find_in_set(#{item}, v.pubLabelIds)
+			</foreach>
+	  	</if>
+  </select>
+  
+  <select id="selectCountByNameAndCreator" resultType="int">
+  	SELECT count(id) FROM card_info
+  	WHERE is_delete = 0 AND card_name = #{name} 
+  		AND (is_public = 1 OR (is_public = 0 AND create_id = #{userId}))
+  </select>
+</mapper>

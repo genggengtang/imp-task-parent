@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.ITaskFileMapper" >
+  
+  <sql id="Base_Column_List" >
+    id, sub_task_id, org_id, file_type, file_no, file_name, file_url, create_at
+  </sql>
+  
+  <select id="selectFileSimpleInfoBySubIdAndType" resultType="org.zxs.imp.task.dao.model.vo.output.FileSimpleOut">
+  	SELECT file_name fileName, file_url fileUrl
+  	FROM task_file
+  	WHERE id = #{subId}
+  		<if test="type != null">
+  			AND file_type = #{type}
+  		</if>
+  	ORDER BY create_at
+  </select>
+</mapper>

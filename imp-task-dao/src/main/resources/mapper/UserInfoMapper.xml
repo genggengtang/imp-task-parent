@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.IUserInfoMapper" >
+  <sql id="Base_Column_List" >
+    id, login_name, real_name, password, position, dept_id, office_phone, mobile_phone, 
+    user_level, role, order_by, status, create_at, update_at
+  </sql>
+  
+  <sql id="Login_Column_List" >
+    u.id userId, u.login_name loginName, u.real_name username, u.position, u.user_level level, u.dept_id deptId, u.role,
+    u.office_phone officePhone, u.mobile_phone mobilePhone, u.update_at createAt, d.full_name deptName
+  </sql>
+  
+  <sql id="Login_Column_Table" >
+    user_info u LEFT JOIN dept_info d on u.dept_id = d.id
+  </sql>
+  
+  <select id="selectAppLoginInfoByNameAndPsw" resultType="org.zxs.imp.task.dao.model.vo.output.AppUser">
+  	SELECT <include refid="Login_Column_List"/>
+  	FROM <include refid="Login_Column_Table"/>
+  	WHERE u.login_name = #{username} AND u.status = 1
+  	<if test="psw != null">
+  		AND u.password = MD5(CONCAT(#{psw},DATE_FORMAT(u.update_at,'%Y-%m-%d %T')))
+  	</if>
+  	GROUP BY u.id
+  </select>
+  
+  <update id="updatePasswordById">
+ 	UPDATE user_info
+ 	SET password = MD5(CONCAT(#{pswdNew},DATE_FORMAT(now(),'%Y-%m-%d %T'))), update_at = now()
+ 	WHERE id = #{id}
+  </update>
+  
+  <select id="selectLeaderList" resultType="org.zxs.imp.task.dao.model.vo.output.OptionsOut">
+  	SELECT id optValue, real_name optText, 2 remark
+  	FROM user_info
+  	WHERE role = 11602 AND status = 1
+  	ORDER BY order_by
+  </select>
+  
+  <select id="selectPhoneList" parameterType="org.zxs.imp.task.dao.model.vo.query.PhoneListQuery"
+    	resultType="org.zxs.imp.task.dao.model.vo.output.PhoneCardOut">
+  	SELECT u.id userId, u.real_name userName, u.mobile_phone mobilePhone, u.position position,
+  		d.short_name deptName, cgu2.chat_group_id id	
+  	FROM user_info u LEFT JOIN dept_info d ON u.dept_id = d.id
+  		LEFT JOIN chat_group_user cgu1 ON u.id = cgu1.user_id
+  		LEFT JOIN chat_group_user cgu2 ON cgu1.chat_group_id = cgu2.chat_group_id AND cgu2.user_id = #{query.userId}
+  	WHERE u.id != #{query.userId} AND u.user_level >= #{query.userLevel} AND u.status = 1
+ 		<if test="query.nameLike != null">
+ 			AND u.real_name like "%"#{query.nameLike}"%"
+ 		</if>
+ 	GROUP BY u.id
+ 	ORDER BY u.user_level,u.order_by,u.create_at
+  </select>
+  
+  <select id="selectNameInRow" resultType="string">
+  	SELECT GROUP_CONCAT(real_name) FROM user_info
+  	<where>
+        <foreach collection="list" open=" id in (" close=")" item="id" separator=",">
+            #{id}
+        </foreach>
+    </where>
+    ORDER BY user_level,order_by,create_at,id
+  </select>
+  
+  <select id="selectUserByDept" parameterType="int" resultType="org.zxs.imp.task.dao.model.vo.output.OptionsOut">
+  	SELECT id optValue, real_name optText FROM user_info
+  	WHERE dept_id = #{deptId}
+    ORDER BY user_level,order_by,create_at,id
+  </select>
+  
+  <select id="selectLeaderOpts" resultType="org.zxs.imp.task.dao.model.vo.output.OptionsOut">
+  	SELECT d.id optValue, u.real_name optText, d.remark
+  	FROM user_info u LEFT JOIN user_dept d ON u.id = d.user_id AND u.dept_id = d.dept_id
+  	WHERE u.role = 11602 AND u.status = 1
+  	ORDER BY u.order_by
+  </select>
+</mapper>

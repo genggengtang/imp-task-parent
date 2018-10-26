@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<EpointDataBody>
+	<DATA>
+		<UserArea>
+			<ReturnInfo>
+				<Status>False</Status>
+				<Description><![CDATA[System.IndexOutOfRangeException: Index 0 is either negative or above rows count.
+   at System.Data.DataView.get_Item(Int32 recordIndex)
+   at NNOAWebservice.Bizlogic.Common.Handle_GetShouWen_LiuZhuan(String Time, String LastTime, String KeyWord, Int32 PageSize, Int32 CurrentPageIndex)]]></Description>
+			</ReturnInfo>
+		</UserArea>
+	</DATA>
+</EpointDataBody>

@@ -1,0 +1,20 @@
+{
+	"contentManagement": [
+		{
+			"title": "项目管理",
+			"icon": "icon-text",
+			"href": "",
+			"spread": false,
+			"children": [
+				{
+					"title": "市领导联系",
+					"icon": "&#xe61c;",
+					"href": "../../page/leaderControlProject/projectList.html",
+					"spread": false
+				}				
+			]
+		}		
+	]
+}
+
+

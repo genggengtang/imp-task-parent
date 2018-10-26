@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="gb2312"?>
+<EpointDataBody>
+	<DATA>
+		<ReturnInfo>
+			<Status>True</Status>
+			<Description>Success</Description>
+			<UserArea>
+				<Worklowinfo>
+					<ShouWengInfo>
+						<RowGuid>2e4487c8-6517-43b0-b808-d61a6762a1eb</RowGuid>
+						<txtTitle><![CDATA[关于报请审定《南宁市惠企政策大兑现活动方案（送审稿）》的请示（批示件）]]></txtTitle>
+						<jpdLaiWenDw>市政府</jpdLaiWenDw>
+						<jpdShouWenXl>南发改投资</jpdShouWenXl>
+						<jpdMiJi>无</jpdMiJi>
+						<txtShouWenDate></txtShouWenDate>
+						<txtFileDate>2018/8/28 0:00:00</txtFileDate>
+						<OldXianBanDate>2018/8/28 0:00:00</OldXianBanDate>
+						<ProcessVersionInstanceGuid>5b60ca51-9615-4d91-80eb-1ec8d739f948
+						</ProcessVersionInstanceGuid>
+						<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+					</ShouWengInfo>
+					<MaterialList>
+						<MaterialInfo>
+							<MaterialInstanceGuid>e8fff470-eb86-4da4-a5e8-a375a3d46552
+							</MaterialInstanceGuid>
+							<MaterialInstanceName>关于报请审定《南宁市惠企政策大兑现活动方案（送审稿）》的请示（批示件）.pdf
+							</MaterialInstanceName>
+							<MaterialType>NewAttach</MaterialType>
+							<isBigFile>0</isBigFile>
+							<DownLoadUrl>ReadFlowFile.aspx?AttachGuid=e8fff470-eb86-4da4-a5e8-a375a3d46552
+							</DownLoadUrl>
+						</MaterialInfo>
+						<MaterialInfo>
+							<MaterialInstanceGuid>e7959029-26a1-4e89-96f1-b830a7559a03
+							</MaterialInstanceGuid>
+							<MaterialInstanceName>报94号
+								南宁市投资促进局关于报请审定《南宁市惠企政策大兑现活动方案（送审稿）》的请示（0801更新）.pdf
+							</MaterialInstanceName>
+							<MaterialType>NewAttach</MaterialType>
+							<isBigFile>0</isBigFile>
+							<DownLoadUrl>ReadFlowFile.aspx?AttachGuid=e7959029-26a1-4e89-96f1-b830a7559a03
+							</DownLoadUrl>
+						</MaterialInfo>
+						<MaterialInfo>
+							<MaterialInstanceGuid>68aab5b5-f924-44a9-8c2b-c6c30197c330
+							</MaterialInstanceGuid>
+							<MaterialInstanceName>附件.rar</MaterialInstanceName>
+							<MaterialType>NewAttach</MaterialType>
+							<isBigFile>0</isBigFile>
+							<DownLoadUrl>ReadFlowFile.aspx?AttachGuid=68aab5b5-f924-44a9-8c2b-c6c30197c330
+							</DownLoadUrl>
+						</MaterialInfo>
+					</MaterialList>
+					<FlowInfoLst>
+						<FlowInfo>
+							<ActivityName>登记</ActivityName>
+							<TransactorName>赵从淑</TransactorName>
+							<TransactorMobile>18376145866</TransactorMobile>
+							<ReceiveDateTime>2018/8/17 8:40:31</ReceiveDateTime>
+							<HandleUserName>赵从淑</HandleUserName>
+							<WorkItemGuid>379fb8f4-e466-47f1-8ac1-5258b9e58fe9</WorkItemGuid>
+							<HandleUserMobile>18376145866</HandleUserMobile>
+							<OperationName>送下一步</OperationName>
+							<HandleDateTime>2018/8/17 8:51:48</HandleDateTime>
+							<Opinion>来文发来市领导批示，其中，朱会东副市长批示：拟同意市投促局上报的活动方案，转各有关单位执行落实，请市投促局做好统筹工作。周红波市长批示：速办。拟请投资科牵头阅处，就服科配合。妥否，呈丁伟、陆勤同志阅示。
+							</Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>赵从淑</TransactorName>
+							<TransactorMobile>18376145866</TransactorMobile>
+							<ReceiveDateTime>2018/8/17 8:51:48</ReceiveDateTime>
+							<HandleUserName>丁伟</HandleUserName>
+							<WorkItemGuid>1a47a8c2-e63c-4b49-8286-dacb82a3c501</WorkItemGuid>
+							<HandleUserMobile>13878888523</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/17 22:04:52</HandleDateTime>
+							<Opinion>已阅</Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>赵从淑</TransactorName>
+							<TransactorMobile>18376145866</TransactorMobile>
+							<ReceiveDateTime>2018/8/17 8:51:48</ReceiveDateTime>
+							<HandleUserName>陆勤</HandleUserName>
+							<WorkItemGuid>76926e23-629f-4113-9439-58d23af43e49</WorkItemGuid>
+							<HandleUserMobile>13707881933</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/17 14:59:17</HandleDateTime>
+							<Opinion>如拟</Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>赵从淑</TransactorName>
+							<TransactorMobile>18376145866</TransactorMobile>
+							<ReceiveDateTime>2018/8/17 8:51:48</ReceiveDateTime>
+							<HandleUserName>邱林敏</HandleUserName>
+							<WorkItemGuid>b01da8a5-3696-4c0f-9b64-f50102dfb6e3</WorkItemGuid>
+							<HandleUserMobile>18077799256</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/18 14:53:49</HandleDateTime>
+							<Opinion>已阅 </Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>赵从淑</TransactorName>
+							<TransactorMobile>18376145866</TransactorMobile>
+							<ReceiveDateTime>2018/8/17 8:51:48</ReceiveDateTime>
+							<HandleUserName>文麒雅</HandleUserName>
+							<WorkItemGuid>2359ae09-5b2f-4f1d-a958-d13e8ddeffac</WorkItemGuid>
+							<HandleUserMobile>18477136630</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/20 8:12:56</HandleDateTime>
+							<Opinion>已核 </Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>赵从淑</TransactorName>
+							<TransactorMobile>18376145866</TransactorMobile>
+							<ReceiveDateTime>2018/8/17 8:51:48</ReceiveDateTime>
+							<HandleUserName>陈明海</HandleUserName>
+							<WorkItemGuid>f0b1180b-55b4-46dd-9eaf-772bb72cd09b</WorkItemGuid>
+							<HandleUserMobile>18076626361</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/19 18:22:17</HandleDateTime>
+							<Opinion>已阅 </Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>赵从淑</TransactorName>
+							<TransactorMobile>18376145866</TransactorMobile>
+							<ReceiveDateTime>2018/8/17 8:51:48</ReceiveDateTime>
+							<HandleUserName>何莉环（负责工作）</HandleUserName>
+							<WorkItemGuid>9c0ab686-a242-4e86-9c15-c657764df420</WorkItemGuid>
+							<HandleUserMobile>15177156320</HandleUserMobile>
+							<OperationName>转交办理</OperationName>
+							<HandleDateTime>2018/8/21 10:53:18</HandleDateTime>
+							<Opinion>请江湖根据后续要求，跟进该项工作。请科室成员阅知。</Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>赵从淑</TransactorName>
+							<TransactorMobile>18376145866</TransactorMobile>
+							<ReceiveDateTime>2018/8/17 8:51:48</ReceiveDateTime>
+							<HandleUserName>王常青</HandleUserName>
+							<WorkItemGuid>02261d34-40a0-48bc-a516-5ae001b65436</WorkItemGuid>
+							<HandleUserMobile>13768208401</HandleUserMobile>
+							<OperationName>转交办理</OperationName>
+							<HandleDateTime>2018/8/20 17:16:26</HandleDateTime>
+							<Opinion>请科内成员阅</Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>王常青</TransactorName>
+							<TransactorMobile>13768208401</TransactorMobile>
+							<ReceiveDateTime>2018/8/20 17:16:26</ReceiveDateTime>
+							<HandleUserName>丁纯</HandleUserName>
+							<WorkItemGuid>eefdff5d-5f5f-4fa3-95f5-af3e71e402f3</WorkItemGuid>
+							<HandleUserMobile>13877111960</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/20 17:24:40</HandleDateTime>
+							<Opinion>已阅 </Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>王常青</TransactorName>
+							<TransactorMobile>13768208401</TransactorMobile>
+							<ReceiveDateTime>2018/8/20 17:16:26</ReceiveDateTime>
+							<HandleUserName>王颖</HandleUserName>
+							<WorkItemGuid>e5faabf5-b7fd-4326-a73f-47d7841d5cbc</WorkItemGuid>
+							<HandleUserMobile>18277155607</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/21 17:19:50</HandleDateTime>
+							<Opinion>已阅 </Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>王常青</TransactorName>
+							<TransactorMobile>13768208401</TransactorMobile>
+							<ReceiveDateTime>2018/8/20 17:16:26</ReceiveDateTime>
+							<HandleUserName>朱培麟</HandleUserName>
+							<WorkItemGuid>f401951e-510e-49d3-bffa-abced41109ef</WorkItemGuid>
+							<HandleUserMobile>15177918023</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/20 17:42:45</HandleDateTime>
+							<Opinion>已阅 </Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>王常青</TransactorName>
+							<TransactorMobile>13768208401</TransactorMobile>
+							<ReceiveDateTime>2018/8/20 17:16:26</ReceiveDateTime>
+							<HandleUserName>韦照焯</HandleUserName>
+							<WorkItemGuid>a22c09d0-1fcf-4523-b78c-152cc5095707</WorkItemGuid>
+							<HandleUserMobile>13978695966</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/20 17:32:38</HandleDateTime>
+							<Opinion>已阅 </Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>何莉环（负责工作）</TransactorName>
+							<TransactorMobile>15177156320</TransactorMobile>
+							<ReceiveDateTime>2018/8/21 10:53:18</ReceiveDateTime>
+							<HandleUserName>张椽</HandleUserName>
+							<WorkItemGuid>a10aeb54-4034-4d05-9b13-ab6a2a03f135</WorkItemGuid>
+							<HandleUserMobile>18677168205</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/22 9:40:16</HandleDateTime>
+							<Opinion>已阅 </Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>何莉环（负责工作）</TransactorName>
+							<TransactorMobile>15177156320</TransactorMobile>
+							<ReceiveDateTime>2018/8/21 10:53:18</ReceiveDateTime>
+							<HandleUserName>刘巧</HandleUserName>
+							<WorkItemGuid>352bdb97-138d-4cff-a1f7-c1667decc61a</WorkItemGuid>
+							<HandleUserMobile>15877129599</HandleUserMobile>
+							<OperationName></OperationName>
+							<HandleDateTime></HandleDateTime>
+							<Opinion></Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>何莉环（负责工作）</TransactorName>
+							<TransactorMobile>15177156320</TransactorMobile>
+							<ReceiveDateTime>2018/8/21 10:53:18</ReceiveDateTime>
+							<HandleUserName>韦江湖</HandleUserName>
+							<WorkItemGuid>be236d62-8a03-4cf0-b3b9-d6a17b10543c</WorkItemGuid>
+							<HandleUserMobile>18878790082</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/21 11:56:33</HandleDateTime>
+							<Opinion>已阅，按要求跟进</Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>何莉环（负责工作）</TransactorName>
+							<TransactorMobile>15177156320</TransactorMobile>
+							<ReceiveDateTime>2018/8/21 10:53:19</ReceiveDateTime>
+							<HandleUserName>韦升</HandleUserName>
+							<WorkItemGuid>3629e87c-7917-4c38-8ad9-132e88f37178</WorkItemGuid>
+							<HandleUserMobile>18172356360</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/22 8:10:24</HandleDateTime>
+							<Opinion>已阅 </Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>何莉环（负责工作）</TransactorName>
+							<TransactorMobile>15177156320</TransactorMobile>
+							<ReceiveDateTime>2018/8/21 10:53:19</ReceiveDateTime>
+							<HandleUserName>陈阳俭</HandleUserName>
+							<WorkItemGuid>8287d173-b4ed-4fb5-a8ee-4f0f1c310397</WorkItemGuid>
+							<HandleUserMobile>18154565620</HandleUserMobile>
+							<OperationName></OperationName>
+							<HandleDateTime></HandleDateTime>
+							<Opinion></Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>何莉环（负责工作）</TransactorName>
+							<TransactorMobile>15177156320</TransactorMobile>
+							<ReceiveDateTime>2018/8/21 10:53:19</ReceiveDateTime>
+							<HandleUserName>黄馨莹</HandleUserName>
+							<WorkItemGuid>81ceafee-441e-473d-a067-0d7039a77ad3</WorkItemGuid>
+							<HandleUserMobile>19977085000</HandleUserMobile>
+							<OperationName></OperationName>
+							<HandleDateTime></HandleDateTime>
+							<Opinion></Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+						<FlowInfo>
+							<ActivityName>批阅</ActivityName>
+							<TransactorName>何莉环（负责工作）</TransactorName>
+							<TransactorMobile>15177156320</TransactorMobile>
+							<ReceiveDateTime>2018/8/21 10:53:19</ReceiveDateTime>
+							<HandleUserName>韦丽文</HandleUserName>
+							<WorkItemGuid>50a34f96-3907-49af-8b4c-d570ab5f80b8</WorkItemGuid>
+							<HandleUserMobile>15277173400</HandleUserMobile>
+							<OperationName>批阅</OperationName>
+							<HandleDateTime>2018/8/22 9:02:20</HandleDateTime>
+							<Opinion>已阅 </Opinion>
+							<handelDateTimeMax>2018/8/22 9:40:16</handelDateTimeMax>
+						</FlowInfo>
+					</FlowInfoLst>
+				</Worklowinfo>
+			</UserArea>
+		</ReturnInfo>
+	</DATA>
+</EpointDataBody>

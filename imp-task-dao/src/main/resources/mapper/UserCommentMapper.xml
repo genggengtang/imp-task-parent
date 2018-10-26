@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.IUserCommentMapper" >
+  <sql id="Base_Column_List" >
+    id, user_id, sub_task_id, content, is_conclusion, create_at
+  </sql>
+  
+  <select id="selectLeaderCommentsBySubId" parameterType="long"
+  			resultType="org.zxs.imp.task.dao.model.vo.output.UserCommentOut">
+  	SELECT u.real_name userName, d.short_name deptName, c.content, c.create_at commentDate
+  	FROM user_comment c LEFT JOIN user_info u ON c.user_id = u.id
+  		LEFT JOIN dept_info d ON u.dept_id = d.id
+  	WHERE u.role <![CDATA[<]]> 11603
+  	ORDER BY c.create_at DESC
+  </select>
+  
+  <select id="selectFinalCommentsBySubId" parameterType="long"
+  			resultType="org.zxs.imp.task.dao.model.vo.output.UserCommentOut">
+  	SELECT u.real_name userName, d.short_name deptName, c.content, c.create_at commentDate
+  	FROM user_comment c LEFT JOIN user_info u ON c.user_id = u.id
+  		LEFT JOIN dept_info d ON u.dept_id = d.id
+  	WHERE c.is_conclusion = 1
+  	ORDER BY c.create_at DESC
+  </select>
+</mapper>

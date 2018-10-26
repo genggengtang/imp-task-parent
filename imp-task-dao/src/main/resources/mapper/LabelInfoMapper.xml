@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.ILabelInfoMapper" >
+  <sql id="Base_Column_List" >
+    id, is_publish, create_id, label_content, label_star, label_color, label_bgcolor, remark, is_delete, create_at, end_at
+  </sql>
+  
+  <select id="selectMyLabelList" parameterType="org.zxs.imp.task.dao.model.vo.query.MyLabelQuery" resultType="org.zxs.imp.task.dao.model.vo.output.LabelOut">
+  	SELECT <include refid="Base_Column_List"/>,
+	  	<choose>
+	  		<when test="query.excludeIds != null">
+	  			if(id in 
+				<foreach item="item" index="index" collection="query.excludeIds" open="(" separator="," close=")"> 
+				    #{item} 
+				</foreach>, 0, 1))
+	  		</when>
+	  		<otherwise>1</otherwise>
+	  	</choose> isExclude
+  	FROM label_info
+  	WHERE
+  		is_delete = 0
+  		<if test="query.keyword != null and query.keyword != ''">
+  			AND label_content LIKE '%'#{query.keyword}'%'
+  		</if>
+  		<if test="query.userId != null">
+  			AND (is_publish = 1 OR (is_publish = 0 AND create_id = #{query.userId}))
+  		</if>
+  	ORDER BY create_id, id
+  </select>
+</mapper>

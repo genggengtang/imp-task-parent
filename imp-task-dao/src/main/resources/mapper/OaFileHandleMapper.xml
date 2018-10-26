@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.zxs.imp.task.dao.interf.IOaFileHandleMapper" >
+  <sql id="Base_Column_List" >
+    id, handle_guid, oa_file_id, activity, submit_user_phone, receive_at, operate_user_phone, opinion, operate_at
+  </sql>
+  
+  <insert id="insertOrUpdateHandleList">
+  	insert into oa_file_handle (id, handle_guid, oa_file_id, activity, submit_user_phone, submit_user_name, receive_at, operate_user_phone, operate_user_name, opinion, operate_at)
+	values 
+	<foreach collection="handleList" item="item" index= "index" separator =",">
+		(0, #{handleGuid}, #{item.oaFileId}, #{item.activity}, #{item.submitUserPhone},#{item.submitUserName}, 
+		if(#{item.receiveDateTime} is null, null, STR_TO_DATE(#{item.receiveDateTime}, '%Y/%m/%d %T')),
+		#{item.operateUserPhone}, #{item.operateUserName}, #{item.opinion},
+		if(#{item.handleDateTime} is null, null, STR_TO_DATE(#{item.handleDateTime}, '%Y/%m/%d %T'))
+		)
+	</foreach>
+	on duplicate key update
+		activity = values(activity),
+		submit_user_phone = values(submit_user_phone),
+		submit_user_name = values(submit_user_name),
+		receive_at = values(receive_at),
+		operate_user_phone = values(operate_user_phone),
+		operate_user_name = values(operate_user_name),
+		opinion = values(opinion),
+		operate_at = values(operate_at)
+  </insert>
+  
+  <insert id="insertBySourceOaData">
+  	insert into oa_file_handle (id, handle_guid, oa_file_id, activity, submit_user_phone, submit_user_name,
+  		receive_at, operate_user_phone, operate_user_name, opinion, operate_at)
+	values 
+		(0, #{handle.handleGuid}, #{handle.oaFileId}, #{handle.activity}, #{handle.submitUserPhone}, #{handle.submitUserName},
+		if(#{handle.receiveDateTime} is null, null, STR_TO_DATE(#{handle.receiveDateTime}, '%Y/%m/%d %T')),
+		#{handle.operateUserPhone}, #{handle.operateUserName}, #{handle.opinion},
+		if(#{handle.handleDateTime} is null, null, STR_TO_DATE(#{handle.handleDateTime}, '%Y/%m/%d %T'))
+		)
+  </insert>
+  
+</mapper>
