@@ -5,10 +5,13 @@ import java.util.List;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
+import javax.validation.Valid;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -31,9 +34,9 @@ import org.zxs.imp.task.service.interf.ICardInfoService;
 import org.zxs.imp.task.service.interf.IDeptInfoService;
 import org.zxs.imp.task.service.interf.IDicInfoService;
 import org.zxs.imp.task.service.interf.ILabelInfoService;
-import org.zxs.imp.task.service.interf.IUserCommentService;
 import org.zxs.imp.task.service.interf.IUserInfoService;
 
+import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.PageInfo;
 
 import io.swagger.annotations.Api;
@@ -58,9 +61,6 @@ public class CardInfoController {
 	
 	@Resource
 	private IUserInfoService userService;
-	
-	@Resource
-	private IUserCommentService userCommentService;
 	
 	@Resource
 	private ILabelInfoService labelService;
@@ -247,17 +247,18 @@ public class CardInfoController {
         @ApiImplicitParam(name = IAppConst.AUTHORIZATION, value = IAppConst.AUTHORIZATION, required = true, dataType = "string", paramType = "header"),
     })
 	public CommonReturnBean<Integer> createCard(
-			@RequestParam(value="isPublic",required=true) Byte isPublic,
-			@RequestParam(value="level",required=true) Byte level,
-			@RequestParam(value="name",required=true) String name,
-			@RequestParam(value="starNum",required=true) Byte starNum,
-			@RequestParam(value="content",required=true) String content,
-			@RequestBody @ModelAttribute CardAddInput query, HttpSession session) {
-		if(null == query)
-			query = new CardAddInput();
+			@RequestBody @ModelAttribute @Valid CardAddInput query, BindingResult bResult, HttpSession session) {
+		if(bResult.hasErrors()) {
+			List<FieldError> fieldErrors = bResult.getFieldErrors();
+			LOGGER.warn("请求参数验证失败！{}", JSON.toJSONString(fieldErrors));
+			CommonReturnBean<Integer> errorRet = new CommonReturnBean<>(ErrorCodeBaseEnum.PARAM_ILLEGAL);
+			errorRet.setErrorMsg(fieldErrors.get(0).getDefaultMessage());
+			return errorRet;
+		}
 		
 		AppUser user = (AppUser) session.getAttribute(IAppConst.SESSION_USER_NAME);
 		int userId = user.getUserId();
+		String name = query.getName();
 		
 		// 检查卡片名称是否重复
 		boolean isDup = cardService.isCardNameExist(name, userId);
@@ -269,7 +270,7 @@ public class CardInfoController {
 		query.setUserId(userId);
 		
 		try {
-			int saveCnt = cardService.saveNewCard(query, isPublic, level, name, starNum, content);
+			int saveCnt = cardService.saveNewCard(query);
 			if(saveCnt != 1) {
 				LOGGER.warn("新增卡片'{}'失败！", name);
 				return new CommonReturnBean<>(ErrorCodeITEnum.CARD_CREATE_FAIL);

@@ -58,5 +58,5 @@ public interface ICardInfoService {
 	 * @param isPublic 
 	 * @return
 	 */
-	int saveNewCard(CardAddInput cardInput, Byte isPublic, Byte level, String name, Byte starNum, String content) throws ParseException;
+	int saveNewCard(CardAddInput cardInput) throws ParseException;
 }

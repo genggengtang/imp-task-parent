@@ -1,13 +1,17 @@
 package org.zxs.imp.task.controller;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
+import javax.validation.Valid;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,13 +24,17 @@ import org.zxs.base.model.PageReturnBean;
 import org.zxs.imp.task.controller.annotation.Authorization;
 import org.zxs.imp.task.dao.consts.ErrorCodeITEnum;
 import org.zxs.imp.task.dao.consts.IAppConst;
+import org.zxs.imp.task.dao.consts.IDicInfoConst;
 import org.zxs.imp.task.dao.model.CardLabel;
 import org.zxs.imp.task.dao.model.LabelInfo;
+import org.zxs.imp.task.dao.model.input.CardAddInput;
+import org.zxs.imp.task.dao.model.input.LabelAddInput;
 import org.zxs.imp.task.dao.model.vo.output.AppUser;
 import org.zxs.imp.task.dao.model.vo.output.LabelOut;
 import org.zxs.imp.task.dao.model.vo.query.MyLabelQuery;
 import org.zxs.imp.task.service.interf.ILabelInfoService;
 
+import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.PageInfo;
 
 import io.swagger.annotations.Api;
@@ -69,18 +77,24 @@ public class LabelInfoController {
 	@ApiImplicitParams({
         @ApiImplicitParam(name = IAppConst.AUTHORIZATION, value = IAppConst.AUTHORIZATION, required = true, dataType = "string", paramType = "header"),
     })
-	public CommonReturnBean<Integer> createLabel(
-			@RequestParam(value="isPublish", required=true) Byte isPublish,
-			@RequestParam(value="content", required=true) String content,
-			@RequestParam(value="starNum", required=false) Byte starNum,
-			@RequestParam(value="textColor", required=false) String textColor,
-			@RequestParam(value="bgColor", required=false) String bgcolor,
-			@RequestParam(value="remark", required=false) String remark, HttpSession session) {
+	public CommonReturnBean<LabelInfo> createLabel(
+			@RequestBody @ModelAttribute @Valid LabelAddInput query, BindingResult bResult, HttpSession session) {
+		if(bResult.hasErrors()) {
+			List<FieldError> fieldErrors = bResult.getFieldErrors();
+			LOGGER.warn("请求参数验证失败！{}", JSON.toJSONString(fieldErrors));
+			CommonReturnBean<LabelInfo> errorRet = new CommonReturnBean<>(ErrorCodeBaseEnum.PARAM_ILLEGAL);
+			errorRet.setErrorMsg(fieldErrors.get(0).getDefaultMessage());
+			return errorRet;
+		}
+		
+		String content = query.getContent();
+		byte isPublish = query.getIsPublish();
+		
 		AppUser user = (AppUser) session.getAttribute(IAppConst.SESSION_USER_NAME);
 		int userId = user.getUserId();
 		
 		// 判断标签内容是否重复
-		boolean isDup = labelService.checkLabelContent(content.trim(), userId);
+		boolean isDup = labelService.checkLabelContent(content, userId);
 		if(isDup) {
 			LOGGER.warn("标签名称{}已存在！", content);
 			return new CommonReturnBean<>(ErrorCodeITEnum.LABEL_NAME_DUP);
@@ -88,32 +102,30 @@ public class LabelInfoController {
 		
 		LabelInfo li = new LabelInfo();
 		li.setCreateAt(new Date());
-		li.setIsPublish(isPublish);
 		li.setLabelContent(content);
 		li.setIsDelete((byte) 0);
 		
-		if(isPublish == 0) {
-			li.setCreateId(userId);
-		}else {
-			li.setCreateId(0);
+		// 判断用户角色
+		if(isPublish == 1) {
+			int role = user.getRole();
+			if(role > IDicInfoConst.ROLE_KPI) {
+				LOGGER.warn("当前用户'{}'无法新建公共标签'{}'！", user.getUsername(), content);
+				return new CommonReturnBean<>(ErrorCodeBaseEnum.AUTH_LIMITED);
+			}
 		}
 		
-		if(null != starNum)
-			li.setLabelStar(starNum);
-		
-		if(null != textColor)
-			li.setLabelColor(textColor);
-		
-		if(null != bgcolor)
-			li.setLabelBgcolor(bgcolor);
-		
-		if(null != remark)
-			li.setRemark(remark);
+		li.setCreateId(userId);
+		li.setIsPublish(isPublish);
+		li.setLabelStar(query.getStarNum());
+		li.setLabelColor(query.getTextColor());
+		li.setLabelBgcolor(query.getBgcolor());
+		li.setRemark(query.getRemark());
 		
 		int addCnt = labelService.createLabel(li);
+		LOGGER.info("创建标签{}结束，返回{}！", content, addCnt);
 		
-		CommonReturnBean<Integer> addRet = new CommonReturnBean<>(ErrorCodeBaseEnum.SUCC);
-		addRet.setData(addCnt);
+		CommonReturnBean<LabelInfo> addRet = new CommonReturnBean<>(ErrorCodeBaseEnum.SUCC);
+		addRet.setData(li);
 		return addRet;
 	}
 	

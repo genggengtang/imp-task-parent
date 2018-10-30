@@ -119,16 +119,27 @@ public class CardInfoServiceImpl implements ICardInfoService {
 
 	@Override
 	@Transactional
-	public int saveNewCard(CardAddInput cardInput, Byte isPublic, Byte level, String name, Byte starNum, String content) throws ParseException {
+	public int saveNewCard(CardAddInput cardInput) throws ParseException {
 		Integer creatorId = cardInput.getUserId();
 		Date nowTime = new Date();
+		byte level = cardInput.getLevel();
+		String name = cardInput.getName();
+		String content = cardInput.getContent();
+		byte starNum = cardInput.getStarNum();
+		byte isPublic = cardInput.getIsPublic();
 		CardInfo ci = new CardInfo();
+//		ci.setCardLevel(level);
+//		ci.setCardName(name);
+//		ci.setCardContent(content);
+//		ci.setCardStar(starNum);
+//		ci.setIsPublic(isPublic);
+		ci.setCreateId(creatorId);
+		
 		ci.setCardLevel(level);
 		ci.setCardName(name);
 		ci.setCardContent(content);
 		ci.setCardStar(starNum);
 		ci.setIsPublic(isPublic);
-		ci.setCreateId(creatorId);
 		
 		ci.setCardType(cardInput.getType());
 		ci.setIsDelete((byte) 0);

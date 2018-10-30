@@ -2,7 +2,27 @@ package org.zxs.imp.task.dao.model.input;
 
 import java.util.List;
 
+import javax.validation.constraints.NotNull;
+
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class CardAddInput {
+	
+	@NotNull(message = "是否公共卡片字段不能为空！")
+	private Byte isPublic;
+	
+	@NotNull(message = "卡片层级不能为空！")
+	private Byte level;
+	
+	@NotEmpty(message = "卡片名称不能为空！")
+	private String name;
+	
+	@NotNull(message = "卡片星级不能为空！")
+	private Byte starNum;
+	
+	@NotEmpty(message = "卡片内容不能为空！")
+	private String content;
+	
 	private Integer userId;
 	private Integer type;
 	private Integer source;
@@ -19,6 +39,36 @@ public class CardAddInput {
 	private List<Long> attachArray;
 	private List<Integer> leaderArray;
 	
+	public Byte getIsPublic() {
+		return isPublic;
+	}
+	public void setIsPublic(Byte isPublic) {
+		this.isPublic = isPublic;
+	}
+	public Byte getLevel() {
+		return level;
+	}
+	public void setLevel(Byte level) {
+		this.level = level;
+	}
+	public String getName() {
+		return name == null ? "":name.trim();
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Byte getStarNum() {
+		return starNum;
+	}
+	public void setStarNum(Byte starNum) {
+		this.starNum = starNum;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
 	public Integer getUserId() {
 		return userId;
 	}
